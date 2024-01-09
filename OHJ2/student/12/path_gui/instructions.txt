@@ -1,0 +1,68 @@
+Ohjelma: Polku -peli
+Nimi: Lassi Lappalainen
+Opiskelijanumero: 150390123
+Käyttäjätunnus: kvlala
+E-Mail: lassi.lappalainen@tuni.fi
+
+Tämä tiedosto sisältää tietoa pelista ja koodistani. Tiedostossa tulee ilmi käyttöohjeet pelin pelaamiseen, sekä millaisia riippuvuuksia eri toiminnoilla on. Eri tilanteita ja mitä niissä voi tapahtua käyttöliittymässä. Tämän lisäksi tiedostossa tulee ilmi ohjelman rakenne ja mahdollisia tehtyjä suunnittelu päätöksiä.
+
+
+Pelin säännöt:
+
+Polku -pelin tarkoituksena on siirrellä vihreitä ja punaisia pelinappuloita niin, että lopulta ne ovat päinvastoin kuin pelin alussa asetettuun asetelmaan peliruudulla.
+Pelin alussa nappulat ovat alkuasetelmassa eli vihreät nappulat ylärivissä ja punaiset alarivissä, niin pelissä tarkoituksena on päästä tilanteeseen, jossa vihreät ovat alarivissä ja punaiset ylärivissä. Lopputulokseen on mahdollista päästä 31 siirrolla, minimissään.
+Nappuloita ei saa siirtää toistensa yli, vaan siirrot tapahtuvat vapaiden paikkojen muodostamaa polkua pitkin. Siirto voi siis olla niin pitkä, kuin tällaista polkua pitkin on mahdollista siirtyä. Eli nappulat eivät voi kulkea toistensa läpi.
+Mikäli olet epävarma siirron laillisuudesta, siirtojen laillisuuden tutkiminen on toteutettu pohjakoodissa, joka ilmoittaa käyttöliittymään mikäli siirto ei ole sallittu.
+
+
+Pelin aloittaminen:
+
+Peli alkaa kun käyttäjä painaa Start painiketta. Kuitenkin ennen pelin aloittamista, käyttäjä voi asettaa itselleen tavoitteen siirtojen lukumäärälle asettamalla luvun mittariin ja painamalla Set Target painiketta. Käyttäjä voi myös kirjoittaa itselleen nimen ja painaa Set nickname painiketta, jolloin peli muistaa asetetun nimen ja listaa pelin jälkeen tulokset Leaderboard taulukkoon käyttäjälle näkyviin, samalla kun tulokset kirjoitetaan leaderboard.txt tiedostoon. Käyttäjä kykenee myös lopettamaan ohjelman ennen pelin aloittamista, mikäli hän haluaa, painamalla Quit näppäintä.
+
+Ennen aloittamista, pelaaja kykenee myös kokeilemaan näppäimiä, mikäli pelilauta ei ole käyttäjälle selvä. Nappuloita ei voi kuitenkaan siirtää tässä tilassa.
+Reset, Pause ja Undo painikkeet ovat suljettuna käyttäjältä selkeyttämisen vuoksi, jotta käyttäjä ei turhaan painaisi niitä tässä vaiheessa, koska ne eivät tee mitään.
+
+
+Pelin aikana:
+
+Kun käyttäjä on painanut Start painiketta. Oikeassa yläkulmassa oleva Timer lähtee käyntiin ja ilmoittaa kuluneet sekunnit ja mahdollisesti minuutit. Käyttäjä voi nyt painaa pelinappulaa jolloin nappulan ympärille tulee keltainen ympärys ja valitun nappulan väri muuttuu hieman muista nappuloista. Kun käyttäjä painaa jotain vapaata ruutua, nappula siirtyy suoraan vapaaseen ruutuun ja Made moves mittari nousee yhdellä. Mikäli käyttäjä valitsisi laittoman siirron, Event log näyttää käyttäjälle viestin virheellisestä siirrosta ja siirto ei toteudu. 
+Käyttäjä voi pelin aikana lopettaa pelin Quit painikkeesta tai painaa Reset painiketta, jolloin peli palautuu oletustilaan ja syötetyt tiedot nollataan. Eli peli alkaa alusta niin kuin se käynnistettäisiin ensimmäistä kertaa.
+
+Käyttäjä voi painaa Pause näppäintä ja keskeyttää kellon. Keskeytetyssä tilassa Event logiin tulee viesti, että peli on keskeytetty. Tilassa näppäimiä ei voi siirtää itse, mutta käyttäjä voi painaa Undo painiketta, mikäli pelissä on tehty siirtoja aloitustilanteesta, jolloin nappula siirtyy aikaisempaan tilanteeseen. Toimintoja voi perua enemmänkin, jopa alkutilanteeseen asti. Samalla tehtyjen siirtojen lukumäärä laskee vastaamaan tilannetta. Keskeytetyssä tilanteessa käyttäjä voi edelleen painaa Reset painiketta tai Quit painiketta, jotka toimivat tavallisesti. Peliä voi jatkaa painamalla uudestaan Start painiketta, jolloin peli jatkuu normaalisti.
+Event log säiliöön tulee peliin liittyen tietoa, joten sitä suositellaan seurata.
+
+
+Pelin lopussa:
+
+Kun pelaaja voittaa pelin eli punaiset nappulat ovat ylhäällä ja vihreät alhaalla pelin logiikan mukaisesti. Timer pysähtyy ja käyttäjä ei voi enään siirtää nappuloita. Event log näyttää käyttäjälle viestin, jossa kerrotaan siirtojen lukumäärä ja kulunut aika. Mikäli käyttäjä on asettanut ennen pelin aloittamista itselleen tavoitteen, viesti kertoo saavuttiko käyttäjä tavoitteensa ja onnittelee siihen perustuen. Mikäli käyttäjä on asettanut itselleen nimen, tulostuu leaderboard taulukko ja käyttäjän tulos lisätään taulukkoon siihen kuuluvalle paikalle, perustuen ensiksi siirtojen lukumäärään, ja sitten kuluneeseen aikaan. Käyttäjä voi lopettaa pelin tai painaa Reset painiketta, jolloin peli palautuu oletustilanteeseen ja toiminnallisuudet avautuva uudestaan. Mikäli käyttäjä voittaa pelin minimäärällä siirtoja (31) vaihtuu käyttöliittymän taustaväri keltaiseksi. Taustaväri palautuu Reset painikkeesta.
+
+
+Suunnittelupäätöksiä:
+
+Ohjelma pyrkii poistamaan käyttäjältä nappuloita, jotka ovat turhia tilanteessa. Ulkoasullisesti ohjelma on aseteltu niin, että pelilauta on keskellä, nappulat oikealla, ja pelin tiedot näkyvät vasemmalla. Ohjelman alussa käyttäjä voi kokeilla peliruudun nappuloita, jolloin käyttäjä saa hieman tuntumaa pelistä. Leaderboard tulokset tulevat näytölle näkyviin jos käyttäjä on syöttänyt nimensä ja peli voitetaan. Tämä toteutettiin, koska rajallisen tilan vuoksi on selkeämpää käyttäjälle jos tulokset eivät ole heti näkyvissä. Tuloksia voi kuitenkin lukea tiedostosta suoraan ohjelman ulkopuolella. Set target ja Set nickname lukitsevat asetetun arvon ja lähtevät pois käytöstä painalluksen jälkeen, jolloin käyttäjän on helppo ymmärtää, että arvot ovat asetettu, eikä pelin aikana ole ylimääräisiä painikkeita. Event log ohjeistaa käyttäjää tilanteen mukaisesti. Undo painike lähtee käytöstä jos käyttäjä on valinnut tai painanut peliruudun näppäintä ja palaa takaisin siirron jälkeen. Käyttäjä voi painaa samaa nappulaa uudestaan, mikäli hän valitsi väärin ja haluaa siirtää toista nappulaa.
+
+Tarkemmin itse ohjelmakoodin toiminnasta löytyy kooditiedostoista.
+
+
+Käyttöliittymän ominaisuudet tehtävänannon perusteella:
+
+•	peliruudukon näyttäminen
+•	siirrettävän nappulan ja sen uuden sijainnin valitseminen
+•	tehtyjen siirtojen määrästä kertominen.
+•	mahdollisuus aloittaa peli uudestaan (reset)
+•	ajastin, joka kertoo tähän mennessä käytetyn ajan.
+
+Käyttöliittymän lisäominaisuudet (max 55p):
+
+•	Peli sisältää tulostaulun, johon tallentuu pelaajan saamat pisteet. Tallennetut tiedot säilyvät pelistä toiseen (eli ne tallennetaan tiedostoon). Tulostauluun voidaan tallentaa usean eri pelaajan pisteet, joten pelin alussa käyttäjä voi (ainakin halutessaan) antaa käyttäjänimensä. (max 10 p.)
+
+•	Käyttöliittymän taustaväri vaihtuu, kun pelaaja saa pelin loppuu minimimäärällä siirtoja (31). Uudelleenaloituksessa (reset) taustaväri palautuu ennalleen. ( max 10 p.)
+
+
+•	Pelaaja voi asettaa oman tavoitteensa siirtojen määrälle. Sen täyttyessä näytetään onnitteluviesti, muutoin häviöviesti. ( max 5 p.)
+
+•	Pelissä on pause-nappula, jolla ajanoton saa pysäytettyä, kun peli on käynnissä. Tällöin peli lakkaa esim. vastaamasta näppäinkomentoihin. Käyttäjälle ilmoitetaan jotenkin, että pause on meneillään. ( max 10 p.)
+
+
+•	Pelissä on undo-toiminto, jolla voi perua edellisen siirron. (max 10 p.) Toimintoja voi perua enemmänkin, jopa alkutilanteeseen asti. ( max 10 p.)
+

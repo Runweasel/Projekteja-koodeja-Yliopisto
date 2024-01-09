@@ -1,0 +1,7 @@
+# ignore all pro.user directories
+
+*.pro.user
+
+# ignore all directories that start with "build-"
+
+build-*/

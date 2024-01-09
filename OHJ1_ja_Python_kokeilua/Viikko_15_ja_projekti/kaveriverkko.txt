@@ -1,5 +1,0 @@
-Lassi;Teppo;Petteri;Matti
-Matti;Teppo;Petteri;Lassi
-Teppo;Petteri;Mikko
-Mikko;Teppo;Petteri
-Matias;Viljami

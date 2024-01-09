@@ -1,0 +1,12 @@
+testread "functionality-compulsory/test-01-get_connected_affiliations-in.txt" "functionality-compulsory/test-01-get_connected_affiliations-out.txt"
+
+testread "functionality-compulsory/test-02-get_all_connections-in.txt" "functionality-compulsory/test-02-get_all_connections-out.txt"
+
+testread "functionality-compulsory/test-03-get_any_path-in.txt" "functionality-compulsory/test-03-get_any_path-out.txt"
+
+testread "integration-optional/test-01-get_path_with_least_affiliations-in.txt" "integration-optional/test-01-get_path_with_least_affiliations-out.txt"
+
+testread "integration-optional/test-02-get_path_of_least_friction-in.txt" "integration-optional/test-02-get_path_of_least_friction-out.txt"
+
+testread "integration-optional/test-03-get_shortest_path-in.txt" "integration-optional/test-03-get_shortest_path-out.txt"
+

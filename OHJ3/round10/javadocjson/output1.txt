@@ -1,0 +1,16 @@
+{
+  "address": {
+    "city": "Tampere",
+    "country": "Finland"
+  },
+  "faculties": [
+    "Faculty of Built Environment",
+    "Faculty of Education and Culture",
+    "Faculty of Engineering and Natural Sciences",
+    "Faculty of Information Technology and Communication Sciences",
+    "Faculty of Management and Business",
+    "Faculty of Medicine and Health Technology",
+    "Faculty of Social Sciences"
+  ],
+  "name": "Tampere University"
+}
