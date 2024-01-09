@@ -7,3 +7,4 @@ Tämä sisältää Yliopisto-opiskelujen aikana tehtyjä koodeja, ratkaisuja, pr
 - Ohjelmointi 3 - Java
 - Tietorakenteet ja Algoritmit - C++
 - Tietokantojen perusteet - SQL
+- AUT.400 - Node-RED (JavaScript)
