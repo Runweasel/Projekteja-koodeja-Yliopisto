@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF" /> <!-- Taustaväri -->
+    <corners android:radius="8dp" /> <!-- Pyöristetyt kulmat -->
+    <stroke
+        android:width="2dp" /> <!-- Reunuksen paksuus -->
+</shape>
