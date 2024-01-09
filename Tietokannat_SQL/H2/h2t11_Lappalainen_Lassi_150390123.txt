@@ -1,0 +1,25 @@
+-- h2t11
+-- Lappalainen Lassi 150390123
+
+a) Muutosoperaatio: Päivittää taulukon "artwork" sarakkeen 
+"artist_id" arvon 5:ksi riviä, jonka "artwork_id" on 3.
+
+b) Lisäysoperaatio: Lisää uuden rivin taulukkoon "artwork" annetuilla arvoilla.
+
+c) Lisäysoperaatio: Lisää uuden rivin taulukkoon "artwork" annetuilla arvoilla.
+
+d) Muutosoperaatio: Päivittää taulukon "artist" sarakkeen
+ "artist_id" arvon 13:ksi riviä, jonka "artist_id" on 1.
+
+e) Muutosoperaatio: Päivittää taulukon "artist" sarakkeen 
+"artist_id" arvon 13:ksi riviä, jonka "artist_id" on 5.
+
+f) Muutosoperaatio: Päivittää taulukon "artist" sarakkeen "last_name" 
+arvon 'diCaprio'ksi riviä, jonka "artist_id" on 1.
+
+g) Poisto-operaatio: Poistaa taulukosta "artist" rivin, jonka "artist_id" on 2.
+
+h) Lisäysoperaatio: Lisää uuden rivin taulukkoon "displayed_at" annetuilla arvoilla.
+
+i) Muutosoperaatio: Päivittää taulukon "displayed_at" sarakkeen "artwork_id" arvon 3:ksi 
+riveillä, joiden "artwork_id" on 1 ja "exhibition_id" on 1.

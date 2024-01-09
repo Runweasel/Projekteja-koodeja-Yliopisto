@@ -1,0 +1,11 @@
+-- h4t5
+-- Lappalainen Lassi 150390123
+
+a. epätosi
+b. tuntematon
+c. tosi
+d. tuntematon
+e. tuntematon
+f. epätosi
+g. tuntematon
+h. tosi

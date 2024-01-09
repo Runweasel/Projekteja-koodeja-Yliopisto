@@ -1,0 +1,9 @@
+-- h1t11
+-- Lappalainen Lassi 150390123
+
+   a. name = 'Downhill': True
+   b. name <> 'Downhill': False
+   c. category = 'yellow': False
+   d. price <> 23.00: True
+   e. category IS NULL: True
+   f. category IS NOT NULL: False
