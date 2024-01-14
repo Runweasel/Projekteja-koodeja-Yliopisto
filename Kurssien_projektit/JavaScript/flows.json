@@ -1,0 +1,6750 @@
+[
+    {
+        "id": "18948906465c2e1d",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "24406f9da8de06b1",
+        "type": "tab",
+        "label": "rasmus",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "d6fe634398f3ae0f",
+        "type": "tab",
+        "label": "Flow 4",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "bf03422bd0e15f2c",
+        "type": "tab",
+        "label": "Flow 5",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f6602546c6de8b09",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "94edb8404b245c6a",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "8b05d972ae43684d",
+        "type": "ui_tab",
+        "name": "Main",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d1df7a1a41849bd8",
+        "type": "ui_tab",
+        "name": "SENSOR_VIEW",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": true,
+        "hidden": false
+    },
+    {
+        "id": "7ab12c2ae0eec8ce",
+        "type": "ui_group",
+        "name": "Mittari 1",
+        "tab": "8b05d972ae43684d",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "162bd576507377cb",
+        "type": "ui_group",
+        "name": "Mittari 2",
+        "tab": "8b05d972ae43684d",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6b048e2e2a0f5d4f",
+        "type": "ui_group",
+        "name": "Mittari 3",
+        "tab": "8b05d972ae43684d",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c0986fa1ac6430ef",
+        "type": "ui_group",
+        "name": "Setting values",
+        "tab": "8b05d972ae43684d",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "cc7c66e0082cb938",
+        "type": "ui_group",
+        "name": "",
+        "tab": "8b05d972ae43684d",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e1d302e334ee7e42",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "56053986e1348404",
+        "order": 1,
+        "disp": true,
+        "width": 20,
+        "collapse": false,
+        "className": "Temperature_chart"
+    },
+    {
+        "id": "56053986e1348404",
+        "type": "ui_tab",
+        "name": "See_sensor_data_tab",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "49cb9ec4223be20d",
+        "type": "ui_group",
+        "name": " TEMP",
+        "tab": "ee0c3b62e75f42d5",
+        "order": 2,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5b9c89d8b911e143",
+        "type": "ui_group",
+        "name": "GAUGES",
+        "tab": "ee0c3b62e75f42d5",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": "Temperature_chart"
+    },
+    {
+        "id": "fa7978a410af5130",
+        "type": "ui_group",
+        "name": "HMD",
+        "tab": "ee0c3b62e75f42d5",
+        "order": 3,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "23783b8eb1e8d197",
+        "type": "ui_group",
+        "name": "PRS",
+        "tab": "ee0c3b62e75f42d5",
+        "order": 4,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a36d93efee453466",
+        "type": "ui_group",
+        "name": "TEMP",
+        "tab": "3460f9ee609922a3",
+        "order": 2,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "05d96323285adeb6",
+        "type": "ui_group",
+        "name": "HMD",
+        "tab": "3460f9ee609922a3",
+        "order": 3,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4cf89d66eb3785da",
+        "type": "ui_group",
+        "name": "PRS",
+        "tab": "3460f9ee609922a3",
+        "order": 4,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f58e91e94912d7cb",
+        "type": "ui_group",
+        "name": "GAUGES",
+        "tab": "3460f9ee609922a3",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "bc4068b8f7012aa3",
+        "type": "ui_group",
+        "name": "TEMP",
+        "tab": "20ea54b2d1ef2374",
+        "order": 2,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fce06918de091d44",
+        "type": "ui_group",
+        "name": "HMD",
+        "tab": "20ea54b2d1ef2374",
+        "order": 3,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "57552cdb7575827f",
+        "type": "ui_group",
+        "name": "PRS",
+        "tab": "20ea54b2d1ef2374",
+        "order": 4,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c4fb61a24c58839e",
+        "type": "ui_group",
+        "name": "GAUGES",
+        "tab": "20ea54b2d1ef2374",
+        "order": 1,
+        "disp": false,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ee0c3b62e75f42d5",
+        "type": "ui_tab",
+        "name": "Sensor_1",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "3460f9ee609922a3",
+        "type": "ui_tab",
+        "name": "Sensor_2",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "20ea54b2d1ef2374",
+        "type": "ui_tab",
+        "name": "Sensor_3",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d8182e94391065cf",
+        "type": "ui_group",
+        "name": " TEMP",
+        "tab": "1d5e5d142c8d1afa",
+        "order": 2,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6241024713112dac",
+        "type": "ui_group",
+        "name": "GAUGES",
+        "tab": "1d5e5d142c8d1afa",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": "Temperature_chart"
+    },
+    {
+        "id": "1fcdc364bcf1a933",
+        "type": "ui_group",
+        "name": "HMD",
+        "tab": "1d5e5d142c8d1afa",
+        "order": 3,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f5defbb60b1e0d52",
+        "type": "ui_group",
+        "name": "PRS",
+        "tab": "1d5e5d142c8d1afa",
+        "order": 4,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "99b3a058ca52f863",
+        "type": "ui_group",
+        "name": "TEMP",
+        "tab": "c6d26f8d8dbbbdb9",
+        "order": 2,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "12cb3be12648d6d0",
+        "type": "ui_group",
+        "name": "HMD",
+        "tab": "c6d26f8d8dbbbdb9",
+        "order": 3,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "15caddccab27e52c",
+        "type": "ui_group",
+        "name": "PRS",
+        "tab": "c6d26f8d8dbbbdb9",
+        "order": 4,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7b2cced1506a4c61",
+        "type": "ui_group",
+        "name": "GAUGES",
+        "tab": "c6d26f8d8dbbbdb9",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1ebf0c5d38c11d33",
+        "type": "ui_group",
+        "name": "TEMP",
+        "tab": "7f109e5c9873b9ec",
+        "order": 2,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "75f7a9eb65bbc2e5",
+        "type": "ui_group",
+        "name": "HMD",
+        "tab": "7f109e5c9873b9ec",
+        "order": 3,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e1dc807ada989c3d",
+        "type": "ui_group",
+        "name": "PRS",
+        "tab": "7f109e5c9873b9ec",
+        "order": 4,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a394215f1a5548d8",
+        "type": "ui_group",
+        "name": "GAUGES",
+        "tab": "7f109e5c9873b9ec",
+        "order": 1,
+        "disp": false,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8ccd92c4a1d096a7",
+        "type": "ui_group",
+        "name": "Setting values",
+        "tab": "8b05d972ae43684d",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1d5e5d142c8d1afa",
+        "type": "ui_tab",
+        "name": "Sensor_1",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c6d26f8d8dbbbdb9",
+        "type": "ui_tab",
+        "name": "Sensor_2",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "7f109e5c9873b9ec",
+        "type": "ui_tab",
+        "name": "Sensor_3",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "4fc823f1c72a1353",
+        "type": "ui_group",
+        "name": "SET_VALUES",
+        "tab": "8b05d972ae43684d",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "535f84932373e2a3",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "aa2f4ecf8a905f30",
+        "order": 1,
+        "disp": true,
+        "width": 20,
+        "collapse": false,
+        "className": "Temperature_chart"
+    },
+    {
+        "id": "aa2f4ecf8a905f30",
+        "type": "ui_tab",
+        "name": "See_sensor_data_tab",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "4d2c9eea66a794ce",
+        "type": "ui_group",
+        "name": " TEMP",
+        "tab": "091d89b268d7b0c9",
+        "order": 2,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6d7c55e36c950f0f",
+        "type": "ui_group",
+        "name": "GAUGES",
+        "tab": "091d89b268d7b0c9",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": "Temperature_chart"
+    },
+    {
+        "id": "c37f0e36a56c006a",
+        "type": "ui_group",
+        "name": "HMD",
+        "tab": "091d89b268d7b0c9",
+        "order": 3,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "adc56d62f19e930d",
+        "type": "ui_group",
+        "name": "PRS",
+        "tab": "091d89b268d7b0c9",
+        "order": 4,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "188a0861cd3d4b79",
+        "type": "ui_group",
+        "name": "TEMP",
+        "tab": "d89f6499b1407a03",
+        "order": 2,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ebc2913ae498f5f9",
+        "type": "ui_group",
+        "name": "HMD",
+        "tab": "d89f6499b1407a03",
+        "order": 3,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d2a0a8d1f097eed4",
+        "type": "ui_group",
+        "name": "PRS",
+        "tab": "d89f6499b1407a03",
+        "order": 4,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4451fdf7c53fcd79",
+        "type": "ui_group",
+        "name": "GAUGES",
+        "tab": "d89f6499b1407a03",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "240b32123d4a3223",
+        "type": "ui_group",
+        "name": "TEMP",
+        "tab": "dcfc2c04d2cdafaa",
+        "order": 2,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "27a9697617a7c912",
+        "type": "ui_group",
+        "name": "HMD",
+        "tab": "dcfc2c04d2cdafaa",
+        "order": 3,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "97f6fefa7f0f44f8",
+        "type": "ui_group",
+        "name": "PRS",
+        "tab": "dcfc2c04d2cdafaa",
+        "order": 4,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3acdb18ff7110ef5",
+        "type": "ui_group",
+        "name": "GAUGES",
+        "tab": "dcfc2c04d2cdafaa",
+        "order": 1,
+        "disp": false,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "091d89b268d7b0c9",
+        "type": "ui_tab",
+        "name": "Sensor_1",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d89f6499b1407a03",
+        "type": "ui_tab",
+        "name": "Sensor_2",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "dcfc2c04d2cdafaa",
+        "type": "ui_tab",
+        "name": "Sensor_3",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "4bdfb7f69966c858",
+        "type": "ui_group",
+        "name": " TEMP",
+        "tab": "a7355f1a48e4cb49",
+        "order": 2,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "18239e31443b7c77",
+        "type": "ui_group",
+        "name": "GAUGES",
+        "tab": "a7355f1a48e4cb49",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": "Temperature_chart"
+    },
+    {
+        "id": "faa41abe9b81ad42",
+        "type": "ui_group",
+        "name": "HMD",
+        "tab": "a7355f1a48e4cb49",
+        "order": 3,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d7b2ae6b1cfec791",
+        "type": "ui_group",
+        "name": "PRS",
+        "tab": "a7355f1a48e4cb49",
+        "order": 4,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "da9d11e51aaf6217",
+        "type": "ui_group",
+        "name": "TEMP",
+        "tab": "8292a0def2940df7",
+        "order": 2,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a0e5e8216708f606",
+        "type": "ui_group",
+        "name": "HMD",
+        "tab": "8292a0def2940df7",
+        "order": 3,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "17e1caa1146f48b0",
+        "type": "ui_group",
+        "name": "PRS",
+        "tab": "8292a0def2940df7",
+        "order": 4,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "139bf1beaf52aee0",
+        "type": "ui_group",
+        "name": "GAUGES",
+        "tab": "8292a0def2940df7",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8ff07073af686213",
+        "type": "ui_group",
+        "name": "TEMP",
+        "tab": "91e7a82d98fb598e",
+        "order": 2,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e5fe0b46cfdeb365",
+        "type": "ui_group",
+        "name": "HMD",
+        "tab": "91e7a82d98fb598e",
+        "order": 3,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c03688211025e544",
+        "type": "ui_group",
+        "name": "PRS",
+        "tab": "91e7a82d98fb598e",
+        "order": 4,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "086eaeb08b4f855e",
+        "type": "ui_group",
+        "name": "GAUGES",
+        "tab": "91e7a82d98fb598e",
+        "order": 1,
+        "disp": false,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9928a3bdfe86464e",
+        "type": "ui_group",
+        "name": "Setting values",
+        "tab": "8b05d972ae43684d",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a7355f1a48e4cb49",
+        "type": "ui_tab",
+        "name": "Sensor_1",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "8292a0def2940df7",
+        "type": "ui_tab",
+        "name": "Sensor_2",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "91e7a82d98fb598e",
+        "type": "ui_tab",
+        "name": "Sensor_3",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d65facc4451b88a4",
+        "type": "function",
+        "z": "18948906465c2e1d",
+        "name": "MOCK TMP",
+        "func": "var temperature = 21 + Math.random() * 2;\ntemperature = parseFloat(temperature.toFixed(2)); // Pyöristys 2 desimaaliin\n\nif (context.get('previousTemperature') === undefined) {\n    // Laitetaan alkuarvo\n    context.set('previousTemperature', temperature);\n} else {\n    // Rajoitetaan muutos 0 ja 0.10 välillä\n    var min = Math.max(context.get('previousTemperature') - 0.09, 21);\n    var max = Math.min(context.get('previousTemperature') + 0.09, 23);\n    temperature = Math.min(Math.max(temperature, min), max);\n    context.set('previousTemperature', temperature);\n}\n\nreturn { payload: temperature.toFixed(6) }; // Pyöristys 4 desimaaliin, jotta saadaan pois liialliset desimaalit",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 40,
+        "wires": [
+            [
+                "b6d462778dc2030d",
+                "758ee68b4ce52767"
+            ]
+        ]
+    },
+    {
+        "id": "45909e53285084d4",
+        "type": "function",
+        "z": "18948906465c2e1d",
+        "name": "MOCK HMD",
+        "func": "var humidity = 60 + Math.random() * 0.2;\nhumidity = parseFloat(humidity.toFixed(1)); // Round to one decimal place\n\nif (context.get('previousHumidity') === undefined) {\n    // Set initial value\n    context.set('previousHumidity', humidity);\n} else {\n    // Limit change to between 0 and 0.3\n    var min = Math.max(context.get('previousHumidity') - 0.3, 60);\n    var max = Math.min(context.get('previousHumidity') + 0.3, 60.2);\n    humidity = Math.min(Math.max(humidity, min), max);\n    context.set('previousHumidity', humidity);\n}\n\nreturn { payload: humidity };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 80,
+        "wires": [
+            [
+                "a6815eb18def07a5",
+                "7286d5fbe7f00001"
+            ]
+        ]
+    },
+    {
+        "id": "a371919d34bd0c3a",
+        "type": "function",
+        "z": "18948906465c2e1d",
+        "name": "MOCK PRS",
+        "func": "var pressure = 100 + Math.random() * 0.5;\npressure = parseFloat(pressure.toFixed(2)); // Round to two decimal places\n\nif (context.get('previousPressure') === undefined) {\n    // Set initial value\n    context.set('previousPressure', pressure);\n} else {\n    // Limit change to between 0 and 0.9\n    var min = Math.max(context.get('previousPressure') - 0.9, 100);\n    var max = Math.min(context.get('previousPressure') + 0.9, 100.5);\n    pressure = Math.min(Math.max(pressure, min), max);\n    context.set('previousPressure', pressure);\n}\n\nreturn { payload: pressure };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 120,
+        "wires": [
+            [
+                "11e02a80a189c807",
+                "a71b3cf666b13592"
+            ]
+        ]
+    },
+    {
+        "id": "c36a6865ced4e86f",
+        "type": "function",
+        "z": "18948906465c2e1d",
+        "name": "MOCK TMP",
+        "func": "var temperature = 21 + Math.random() * 2;\ntemperature = parseFloat(temperature.toFixed(2)); // Pyöristys 2 desimaaliin\n\nif (context.get('previousTemperature') === undefined) {\n    // Laitetaan alkuarvo\n    context.set('previousTemperature', temperature);\n} else {\n    // Rajoitetaan muutos 0 ja 0.10 välillä\n    var min = Math.max(context.get('previousTemperature') - 0.09, 21);\n    var max = Math.min(context.get('previousTemperature') + 0.09, 23);\n    temperature = Math.min(Math.max(temperature, min), max);\n    context.set('previousTemperature', temperature);\n}\n\nreturn { payload: temperature.toFixed(6) }; // Pyöristys 4 desimaaliin, jotta saadaan pois liialliset desimaalit",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 560,
+        "wires": [
+            [
+                "01b3d147c458018c",
+                "758ee68b4ce52767"
+            ]
+        ]
+    },
+    {
+        "id": "e75f81aef9dd7e14",
+        "type": "function",
+        "z": "18948906465c2e1d",
+        "name": "MOCK HMD",
+        "func": "var humidity = 60 + Math.random() * 0.2;\nhumidity = parseFloat(humidity.toFixed(1)); // Round to one decimal place\n\nif (context.get('previousHumidity') === undefined) {\n    // Set initial value\n    context.set('previousHumidity', humidity);\n} else {\n    // Limit change to between 0 and 0.3\n    var min = Math.max(context.get('previousHumidity') - 0.3, 60);\n    var max = Math.min(context.get('previousHumidity') + 0.3, 60.2);\n    humidity = Math.min(Math.max(humidity, min), max);\n    context.set('previousHumidity', humidity);\n}\n\nreturn { payload: humidity };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 600,
+        "wires": [
+            [
+                "e9326bd95647800f",
+                "7286d5fbe7f00001"
+            ]
+        ]
+    },
+    {
+        "id": "780ee3ce5674adb9",
+        "type": "function",
+        "z": "18948906465c2e1d",
+        "name": "MOCK PRS",
+        "func": "var pressure = 100 + Math.random() * 0.5;\npressure = parseFloat(pressure.toFixed(2)); // Round to two decimal places\n\nif (context.get('previousPressure') === undefined) {\n    // Set initial value\n    context.set('previousPressure', pressure);\n} else {\n    // Limit change to between 0 and 0.9\n    var min = Math.max(context.get('previousPressure') - 0.9, 100);\n    var max = Math.min(context.get('previousPressure') + 0.9, 100.5);\n    pressure = Math.min(Math.max(pressure, min), max);\n    context.set('previousPressure', pressure);\n}\n\nreturn { payload: pressure };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 640,
+        "wires": [
+            [
+                "03145da6d2260dd8",
+                "a71b3cf666b13592"
+            ]
+        ]
+    },
+    {
+        "id": "4aaeb09d36e5a8d0",
+        "type": "function",
+        "z": "18948906465c2e1d",
+        "name": "MOCK TMP",
+        "func": "var temperature = 21 + Math.random() * 2;\ntemperature = parseFloat(temperature.toFixed(2)); // Pyöristys 2 desimaaliin\n\nif (context.get('previousTemperature') === undefined) {\n    // Laitetaan alkuarvo\n    context.set('previousTemperature', temperature);\n} else {\n    // Rajoitetaan muutos 0 ja 0.10 välillä\n    var min = Math.max(context.get('previousTemperature') - 0.09, 21);\n    var max = Math.min(context.get('previousTemperature') + 0.09, 23);\n    temperature = Math.min(Math.max(temperature, min), max);\n    context.set('previousTemperature', temperature);\n}\n\nreturn { payload: temperature.toFixed(6) }; // Pyöristys 4 desimaaliin, jotta saadaan pois liialliset desimaalit",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 1040,
+        "wires": [
+            [
+                "a4162b86f0ab98ca",
+                "758ee68b4ce52767"
+            ]
+        ]
+    },
+    {
+        "id": "81ba520bc4918c15",
+        "type": "function",
+        "z": "18948906465c2e1d",
+        "name": "MOCK HMD",
+        "func": "var humidity = 60 + Math.random() * 0.2;\nhumidity = parseFloat(humidity.toFixed(1)); // Round to one decimal place\n\nif (context.get('previousHumidity') === undefined) {\n    // Set initial value\n    context.set('previousHumidity', humidity);\n} else {\n    // Limit change to between 0 and 0.3\n    var min = Math.max(context.get('previousHumidity') - 0.3, 60);\n    var max = Math.min(context.get('previousHumidity') + 0.3, 60.2);\n    humidity = Math.min(Math.max(humidity, min), max);\n    context.set('previousHumidity', humidity);\n}\n\nreturn { payload: humidity };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 1080,
+        "wires": [
+            [
+                "b04eb2883f614dc8",
+                "7286d5fbe7f00001"
+            ]
+        ]
+    },
+    {
+        "id": "caefdda2a5d1ed8c",
+        "type": "function",
+        "z": "18948906465c2e1d",
+        "name": "MOCK PRS",
+        "func": "var pressure = 100 + Math.random() * 0.5;\npressure = parseFloat(pressure.toFixed(2)); // Round to two decimal places\n\nif (context.get('previousPressure') === undefined) {\n    // Set initial value\n    context.set('previousPressure', pressure);\n} else {\n    // Limit change to between 0 and 0.9\n    var min = Math.max(context.get('previousPressure') - 0.9, 100);\n    var max = Math.min(context.get('previousPressure') + 0.9, 100.5);\n    pressure = Math.min(Math.max(pressure, min), max);\n    context.set('previousPressure', pressure);\n}\n\nreturn { payload: pressure };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 1120,
+        "wires": [
+            [
+                "d2b3b5cb9effc411",
+                "a71b3cf666b13592"
+            ]
+        ]
+    },
+    {
+        "id": "a6815eb18def07a5",
+        "type": "ui_gauge",
+        "z": "18948906465c2e1d",
+        "name": "",
+        "group": "7ab12c2ae0eec8ce",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "HMD",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 830,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "11e02a80a189c807",
+        "type": "ui_gauge",
+        "z": "18948906465c2e1d",
+        "name": "",
+        "group": "7ab12c2ae0eec8ce",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "PRS",
+        "label": "KPa",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "200",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 830,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "b6d462778dc2030d",
+        "type": "ui_gauge",
+        "z": "18948906465c2e1d",
+        "name": "",
+        "group": "7ab12c2ae0eec8ce",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "TEMP",
+        "label": "C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "10",
+        "seg2": "40",
+        "diff": false,
+        "className": "",
+        "x": 830,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "a4162b86f0ab98ca",
+        "type": "ui_gauge",
+        "z": "18948906465c2e1d",
+        "name": "",
+        "group": "6b048e2e2a0f5d4f",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "TEMP",
+        "label": "C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 550,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "d2b3b5cb9effc411",
+        "type": "ui_gauge",
+        "z": "18948906465c2e1d",
+        "name": "",
+        "group": "162bd576507377cb",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "PRS",
+        "label": "KPa",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "200",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 550,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "b04eb2883f614dc8",
+        "type": "ui_gauge",
+        "z": "18948906465c2e1d",
+        "name": "",
+        "group": "6b048e2e2a0f5d4f",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "HMD",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 550,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "01b3d147c458018c",
+        "type": "ui_gauge",
+        "z": "18948906465c2e1d",
+        "name": "",
+        "group": "162bd576507377cb",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "TEMP",
+        "label": "C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 550,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "03145da6d2260dd8",
+        "type": "ui_gauge",
+        "z": "18948906465c2e1d",
+        "name": "",
+        "group": "6b048e2e2a0f5d4f",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "PRS",
+        "label": "KPa",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "200",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 550,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "e9326bd95647800f",
+        "type": "ui_gauge",
+        "z": "18948906465c2e1d",
+        "name": "",
+        "group": "162bd576507377cb",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "HMD",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 550,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "990f8f5b49cc5aaf",
+        "type": "ui_gauge",
+        "z": "18948906465c2e1d",
+        "name": "",
+        "group": "7ab12c2ae0eec8ce",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "BATTERY",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#b50000",
+            "#e6e600",
+            "#0fff02"
+        ],
+        "seg1": "20",
+        "seg2": "55",
+        "diff": false,
+        "className": "",
+        "x": 850,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "8ad3173ca7d88d8c",
+        "type": "function",
+        "z": "18948906465c2e1d",
+        "name": "BATTERY DEMO",
+        "func": "if (context.get('batteryLevel') === undefined) {\n    // Alkuarvo ensimmäiselle kerralle\n    context.set('batteryLevel', 100);\n} else {\n    // Vähennetään arvosta 1\n    var batteryLevel = context.get('batteryLevel') - 1;\n    if (batteryLevel < 0) {\n        batteryLevel = 100; // Arvo takaisin 100 kun 0 saavutetaan\n    }\n    context.set('batteryLevel', batteryLevel);\n}\n\nreturn { payload: context.get('batteryLevel') };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 160,
+        "wires": [
+            [
+                "990f8f5b49cc5aaf",
+                "6ee658b47e6c292f"
+            ]
+        ]
+    },
+    {
+        "id": "037c1f1f68d6c31d",
+        "type": "inject",
+        "z": "18948906465c2e1d",
+        "name": "RUUVITAG",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 70,
+        "y": 100,
+        "wires": [
+            [
+                "d65facc4451b88a4",
+                "45909e53285084d4",
+                "a371919d34bd0c3a",
+                "8ad3173ca7d88d8c"
+            ]
+        ]
+    },
+    {
+        "id": "4f54a7ab3ee922b6",
+        "type": "inject",
+        "z": "18948906465c2e1d",
+        "name": "RUUVITAG",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 70,
+        "y": 600,
+        "wires": [
+            [
+                "c36a6865ced4e86f",
+                "e75f81aef9dd7e14",
+                "47712d53d87630e3",
+                "780ee3ce5674adb9"
+            ]
+        ]
+    },
+    {
+        "id": "2b9182b42c454d1f",
+        "type": "inject",
+        "z": "18948906465c2e1d",
+        "name": "RUUVITAG",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 70,
+        "y": 1080,
+        "wires": [
+            [
+                "4aaeb09d36e5a8d0",
+                "81ba520bc4918c15",
+                "caefdda2a5d1ed8c",
+                "e48ef879ab7bbc8e"
+            ]
+        ]
+    },
+    {
+        "id": "47712d53d87630e3",
+        "type": "function",
+        "z": "18948906465c2e1d",
+        "name": "BATTERY DEMO",
+        "func": "if (context.get('batteryLevel') === undefined) {\n    // Alkuarvo ensimmäiselle kerralle\n    context.set('batteryLevel', 100);\n} else {\n    // Vähennetään arvosta 1\n    var batteryLevel = context.get('batteryLevel') - 0.5;\n    if (batteryLevel < 0) {\n        batteryLevel = 100; // Arvo takaisin 100 kun 0 saavutetaan\n    }\n    context.set('batteryLevel', batteryLevel);\n}\n\nreturn { payload: context.get('batteryLevel') };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 700,
+        "wires": [
+            [
+                "ac9458902687eaff",
+                "6ee658b47e6c292f"
+            ]
+        ]
+    },
+    {
+        "id": "e48ef879ab7bbc8e",
+        "type": "function",
+        "z": "18948906465c2e1d",
+        "name": "BATTERY DEMO",
+        "func": "if (context.get('batteryLevel') === undefined) {\n    // Alkuarvo ensimmäiselle kerralle\n    context.set('batteryLevel', 100);\n} else {\n    // Vähennetään arvosta 1\n    var batteryLevel = context.get('batteryLevel') - 2;\n    if (batteryLevel < 0) {\n        batteryLevel = 100; // Arvo takaisin 100 kun 0 saavutetaan\n    }\n    context.set('batteryLevel', batteryLevel);\n}\n\nreturn { payload: context.get('batteryLevel') };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 1180,
+        "wires": [
+            [
+                "655008759a7b2875",
+                "6ee658b47e6c292f"
+            ]
+        ]
+    },
+    {
+        "id": "ac9458902687eaff",
+        "type": "ui_gauge",
+        "z": "18948906465c2e1d",
+        "name": "",
+        "group": "162bd576507377cb",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "BATTERY",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#b50000",
+            "#e6e600",
+            "#0fff02"
+        ],
+        "seg1": "20",
+        "seg2": "55",
+        "diff": false,
+        "className": "",
+        "x": 570,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "655008759a7b2875",
+        "type": "ui_gauge",
+        "z": "18948906465c2e1d",
+        "name": "",
+        "group": "6b048e2e2a0f5d4f",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "BATTERY",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#b50000",
+            "#e6e600",
+            "#0fff02"
+        ],
+        "seg1": "20",
+        "seg2": "55",
+        "diff": false,
+        "className": "",
+        "x": 570,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "cb14c997b178a0d6",
+        "type": "ui_toast",
+        "z": "18948906465c2e1d",
+        "position": "bottom right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "ALARM TMP",
+        "x": 820,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "2b87904c296f16e7",
+        "type": "ui_toast",
+        "z": "18948906465c2e1d",
+        "position": "bottom right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "ALARM HMD",
+        "x": 820,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "7286d5fbe7f00001",
+        "type": "function",
+        "z": "18948906465c2e1d",
+        "name": "ASETUSARVOT HMD",
+        "func": "var humidity = parseFloat(msg.payload);\n\nvar maxHumidity = flow.get('maxHumidity') || 60;\n\nvar current = new Date();\nif (humidity > maxHumidity + 1) {\n    var message = \"Humidity too high \" + humidity + \"% Clock:\" + current.toLocaleTimeString();\n    msg.payload = message;\n    return msg;\n}\n\nelse if (humidity < maxHumidity - 1) {\n    var message = \"Humidity too low \" + humidity + \"% Clock:\" + current.toLocaleTimeString();\n    msg.payload = message;\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1520,
+        "wires": [
+            [
+                "2b87904c296f16e7",
+                "710ff30d29368b33"
+            ]
+        ]
+    },
+    {
+        "id": "dd44f8fbc53a3cd0",
+        "type": "ui_toast",
+        "z": "18948906465c2e1d",
+        "position": "bottom right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "ALARM PRS",
+        "x": 820,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "a71b3cf666b13592",
+        "type": "function",
+        "z": "18948906465c2e1d",
+        "name": "ASETUSARVOT PRS",
+        "func": "var pressure = parseFloat(msg.payload);\nvar maxPressure = flow.get('maxPressure') || 100\n\nvar current = new Date();\nif (pressure > maxPressure + 1) {\n    var message = \"Pressure too high \" + pressure + \"kPa Clock:\" + current.toLocaleTimeString();\n    msg.payload = message;\n    return msg;\n}\n\nelse if (pressure < maxPressure - 1) {\n    var message = \"Pressure too low \" + pressure + \"kPa Clock:\" + current.toLocaleTimeString();\n    msg.payload = message;\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1560,
+        "wires": [
+            [
+                "dd44f8fbc53a3cd0",
+                "710ff30d29368b33"
+            ]
+        ]
+    },
+    {
+        "id": "1a168a812bec406b",
+        "type": "ui_toast",
+        "z": "18948906465c2e1d",
+        "position": "bottom right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "ALARM BATTERY",
+        "x": 830,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "6ee658b47e6c292f",
+        "type": "function",
+        "z": "18948906465c2e1d",
+        "name": "ASETUSARVO BTR",
+        "func": "var battery = parseFloat(msg.payload);\nvar maxBattery = flow.get('maxBattery') || 15;\n\nvar current = new Date();\nif (battery < maxBattery) {\n    var message = \"Battery low \" + battery + \" Clock:\" + current.toLocaleTimeString();\n    msg.payload = message;\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 1600,
+        "wires": [
+            [
+                "1a168a812bec406b",
+                "710ff30d29368b33"
+            ]
+        ]
+    },
+    {
+        "id": "64aeae89735f90f2",
+        "type": "file",
+        "z": "18948906465c2e1d",
+        "name": "",
+        "filename": "F:\\Log.html",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 950,
+        "y": 1700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "710ff30d29368b33",
+        "type": "function",
+        "z": "18948906465c2e1d",
+        "name": "function 20",
+        "func": "var message = msg.payload.toString();\nvar html_message = \"<p>\"+message+\"</p>\"\nconsole.log(html_message)\nmsg.payload = message;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 1700,
+        "wires": [
+            [
+                "64aeae89735f90f2"
+            ]
+        ]
+    },
+    {
+        "id": "758ee68b4ce52767",
+        "type": "function",
+        "z": "18948906465c2e1d",
+        "name": "ASETUSARVOT TMP",
+        "func": "var temperature = parseFloat(msg.payload);\n\nvar current = new Date();\nvar maxTemperature = flow.get('maxTemperature') || 22; // Get the maximum temperature limit from the flow context, or use 25 as the default value\n\nif (temperature > maxTemperature +1) {\n    var message = \"Temp too high \" + temperature + \"C Clock:\" + current.toLocaleTimeString();\n    msg.payload = message;\n    return msg;\n} else if (temperature < maxTemperature -1) {\n    message = \"Temp too low \" + temperature + \"C Clock:\" + current.toLocaleTimeString();\n    msg.payload = message;\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1480,
+        "wires": [
+            [
+                "cb14c997b178a0d6",
+                "710ff30d29368b33"
+            ]
+        ]
+    },
+    {
+        "id": "21872f8f77ded94a",
+        "type": "ui_numeric",
+        "z": "18948906465c2e1d",
+        "name": "",
+        "label": "Temperature set value (+-1)",
+        "tooltip": "",
+        "group": "c0986fa1ac6430ef",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "maxTemperature",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "x": 120,
+        "y": 1440,
+        "wires": [
+            [
+                "853bdaf11e2e887f"
+            ]
+        ]
+    },
+    {
+        "id": "853bdaf11e2e887f",
+        "type": "function",
+        "z": "18948906465c2e1d",
+        "name": "function 21",
+        "func": "flow.set('maxTemperature', parseFloat(msg.payload));\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 1440,
+        "wires": [
+            [
+                "758ee68b4ce52767"
+            ]
+        ]
+    },
+    {
+        "id": "08e5e099c07600d5",
+        "type": "ui_numeric",
+        "z": "18948906465c2e1d",
+        "name": "",
+        "label": "Humidity set value (+-1)",
+        "tooltip": "",
+        "group": "c0986fa1ac6430ef",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": "40",
+        "max": "100",
+        "step": "0.5",
+        "className": "",
+        "x": 100,
+        "y": 1500,
+        "wires": [
+            [
+                "c44cb5a9c48a6ada"
+            ]
+        ]
+    },
+    {
+        "id": "7e898f61cea96a84",
+        "type": "ui_numeric",
+        "z": "18948906465c2e1d",
+        "name": "",
+        "label": "Pressure set value (+-1)",
+        "tooltip": "",
+        "group": "c0986fa1ac6430ef",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "maxTemperature",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": "80",
+        "max": "150",
+        "step": 1,
+        "className": "",
+        "x": 110,
+        "y": 1560,
+        "wires": [
+            [
+                "19221c3f064fcd30"
+            ]
+        ]
+    },
+    {
+        "id": "c44cb5a9c48a6ada",
+        "type": "function",
+        "z": "18948906465c2e1d",
+        "name": "function 22",
+        "func": "flow.set('maxHumidity', parseFloat(msg.payload));\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 1500,
+        "wires": [
+            [
+                "7286d5fbe7f00001"
+            ]
+        ]
+    },
+    {
+        "id": "19221c3f064fcd30",
+        "type": "function",
+        "z": "18948906465c2e1d",
+        "name": "function 23",
+        "func": "flow.set('maxPressure', parseFloat(msg.payload));\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 1560,
+        "wires": [
+            [
+                "a71b3cf666b13592"
+            ]
+        ]
+    },
+    {
+        "id": "8258df5fdf506f22",
+        "type": "ui_numeric",
+        "z": "18948906465c2e1d",
+        "name": "",
+        "label": "Battery set value",
+        "tooltip": "",
+        "group": "c0986fa1ac6430ef",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "x": 80,
+        "y": 1620,
+        "wires": [
+            [
+                "886ddf050a510640"
+            ]
+        ]
+    },
+    {
+        "id": "886ddf050a510640",
+        "type": "function",
+        "z": "18948906465c2e1d",
+        "name": "function 24",
+        "func": "flow.set('maxBattery', parseFloat(msg.payload));\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 1620,
+        "wires": [
+            [
+                "6ee658b47e6c292f"
+            ]
+        ]
+    },
+    {
+        "id": "6f008f6e10959f9c",
+        "type": "ui_button",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "6b048e2e2a0f5d4f",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "See sensor data",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1270,
+        "y": 560,
+        "wires": [
+            [
+                "4195383433e8509e"
+            ]
+        ]
+    },
+    {
+        "id": "6b48cdb1c83be16a",
+        "type": "ui_button",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "162bd576507377cb",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "See sensor data",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1270,
+        "y": 920,
+        "wires": [
+            [
+                "b02d68624cc76f9f"
+            ]
+        ]
+    },
+    {
+        "id": "0372e5911bde9df0",
+        "type": "ui_ui_control",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "events": "change",
+        "x": 1650,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ba0da8f1b53e7ff2",
+        "type": "ui_ui_control",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "events": "change",
+        "x": 1650,
+        "y": 920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6de9ddba7bdaafbd",
+        "type": "file",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "filename": "C:\\Log.html",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 1210,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4970cf1ba6fd7fd5",
+        "type": "function",
+        "z": "24406f9da8de06b1",
+        "name": "function 15",
+        "func": "var message = msg.payload.toString();\nvar html_message = \"<p>\"+message+\"</p>\"\nconsole.log(html_message)\nmsg.payload = message;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1030,
+        "y": 140,
+        "wires": [
+            [
+                "6de9ddba7bdaafbd"
+            ]
+        ]
+    },
+    {
+        "id": "78932096ae215a8a",
+        "type": "ui_button",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "7ab12c2ae0eec8ce",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "See sensor data",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1270,
+        "y": 740,
+        "wires": [
+            [
+                "84f90e1e941e1ac4"
+            ]
+        ]
+    },
+    {
+        "id": "b47915a16be0cf8b",
+        "type": "ui_ui_control",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "events": "change",
+        "x": 1650,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "31349e493069ced6",
+        "type": "ui_chart",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "49cb9ec4223be20d",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "TEMP_CHART (°C)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "20",
+        "ymax": "25",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1050,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "84f90e1e941e1ac4",
+        "type": "change",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\":\"Sensor_1\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1470,
+        "y": 740,
+        "wires": [
+            [
+                "b47915a16be0cf8b"
+            ]
+        ]
+    },
+    {
+        "id": "97e2dc12d87f8b7d",
+        "type": "ui_ui_control",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "events": "all",
+        "x": 1590,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "861ff734f63e426b",
+        "type": "ui_button",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "5b9c89d8b911e143",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Return",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1240,
+        "y": 780,
+        "wires": [
+            [
+                "03f4ac5a4f6e561b"
+            ]
+        ]
+    },
+    {
+        "id": "03f4ac5a4f6e561b",
+        "type": "change",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\":\"Main\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1410,
+        "y": 780,
+        "wires": [
+            [
+                "97e2dc12d87f8b7d"
+            ]
+        ]
+    },
+    {
+        "id": "5a33807615a95326",
+        "type": "ui_chart",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "fa7978a410af5130",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "HMD_CHART (%)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "58",
+        "ymax": "62",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1050,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6fbe21e90877e5ec",
+        "type": "ui_chart",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "23783b8eb1e8d197",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "PRS_CHART (kPa)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "95",
+        "ymax": "105",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1050,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a90bc9dea50cb7ef",
+        "type": "ui_gauge",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "5b9c89d8b911e143",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "HMD",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 850,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "4f9f488a46d0ade2",
+        "type": "ui_gauge",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "5b9c89d8b911e143",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "PRS",
+        "label": "KPa",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "200",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 850,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "2b3f2f5594769e20",
+        "type": "ui_gauge",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "5b9c89d8b911e143",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "TEMP",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 850,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "b02d68624cc76f9f",
+        "type": "change",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\":\"Sensor_2\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1470,
+        "y": 920,
+        "wires": [
+            [
+                "ba0da8f1b53e7ff2"
+            ]
+        ]
+    },
+    {
+        "id": "73d707f5893e4684",
+        "type": "ui_chart",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "a36d93efee453466",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "TEMP_CHART (°C)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "20",
+        "ymax": "25",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1050,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0f6a240b43f6ef65",
+        "type": "ui_chart",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "05d96323285adeb6",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "HMD_CHART (%)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "58",
+        "ymax": "62",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1050,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e8dccae15768fc43",
+        "type": "ui_chart",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "4cf89d66eb3785da",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "PRS_CHART (kPa)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "95",
+        "ymax": "105",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1050,
+        "y": 800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fef9e8934c522069",
+        "type": "ui_gauge",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "f58e91e94912d7cb",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "HMD",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 850,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "6656ca8e53ce577d",
+        "type": "ui_gauge",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "f58e91e94912d7cb",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "PRS",
+        "label": "KPa",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "200",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 850,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "ca180a9041278118",
+        "type": "ui_gauge",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "f58e91e94912d7cb",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "TEMP",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 850,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "4195383433e8509e",
+        "type": "change",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\":\"Sensor_3\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1470,
+        "y": 560,
+        "wires": [
+            [
+                "0372e5911bde9df0"
+            ]
+        ]
+    },
+    {
+        "id": "57c5248118c7c8bd",
+        "type": "ui_ui_control",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "events": "all",
+        "x": 1590,
+        "y": 960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9401a4d9c024e277",
+        "type": "ui_button",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "f58e91e94912d7cb",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Return",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1240,
+        "y": 960,
+        "wires": [
+            [
+                "d2ae5cfaa8d1b445"
+            ]
+        ]
+    },
+    {
+        "id": "d2ae5cfaa8d1b445",
+        "type": "change",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\":\"Main\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1410,
+        "y": 960,
+        "wires": [
+            [
+                "57c5248118c7c8bd"
+            ]
+        ]
+    },
+    {
+        "id": "7ce5152927a001d2",
+        "type": "ui_chart",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "bc4068b8f7012aa3",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "TEMP_CHART (°C)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "20",
+        "ymax": "25",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1050,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3684356340e79adb",
+        "type": "ui_chart",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "fce06918de091d44",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "HMD_CHART (%)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "58",
+        "ymax": "62",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1050,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9397b9afda616998",
+        "type": "ui_chart",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "57552cdb7575827f",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "PRS_CHART (kPa)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "95",
+        "ymax": "105",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1050,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "78ee498663e4111b",
+        "type": "ui_gauge",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "c4fb61a24c58839e",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "HMD",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 850,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "b15c568932d574d8",
+        "type": "ui_gauge",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "c4fb61a24c58839e",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "PRS",
+        "label": "KPa",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "200",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 850,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "7a04aab7e3b4d7db",
+        "type": "ui_gauge",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "c4fb61a24c58839e",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "TEMP",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 850,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "86b3c853e162a37a",
+        "type": "ui_ui_control",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "events": "all",
+        "x": 1590,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a2779f38b4230637",
+        "type": "ui_button",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "c4fb61a24c58839e",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Return",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1240,
+        "y": 600,
+        "wires": [
+            [
+                "952142c84b3fb195"
+            ]
+        ]
+    },
+    {
+        "id": "952142c84b3fb195",
+        "type": "change",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\":\"Main\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1410,
+        "y": 600,
+        "wires": [
+            [
+                "86b3c853e162a37a"
+            ]
+        ]
+    },
+    {
+        "id": "94da2ff75aba8911",
+        "type": "ui_gauge",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "5b9c89d8b911e143",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "BATTERY",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#b30000",
+            "#e6e600",
+            "#4acb3a"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 870,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "b3eb196e7e8b7742",
+        "type": "ui_gauge",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "f58e91e94912d7cb",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "BATTERY",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#b30000",
+            "#e6e600",
+            "#4acb3a"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 860,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "3ef1d56fe65f7d25",
+        "type": "ui_gauge",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "c4fb61a24c58839e",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "BATTERY",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#b30000",
+            "#e6e600",
+            "#4acb3a"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 860,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "4ba75d97082e7c7b",
+        "type": "function",
+        "z": "24406f9da8de06b1",
+        "name": "MOCK TMP",
+        "func": "var temperature = 21 + Math.random() * 2;\ntemperature = parseFloat(temperature.toFixed(2)); // Pyöristys 2 desimaaliin\n\nif (context.get('previousTemperature') === undefined) {\n    // Laitetaan alkuarvo\n    context.set('previousTemperature', temperature);\n} else {\n    // Rajoitetaan muutos 0 ja 0.10 välillä\n    var min = Math.max(context.get('previousTemperature') - 0.09, 21);\n    var max = Math.min(context.get('previousTemperature') + 0.09, 23);\n    temperature = Math.min(Math.max(temperature, min), max);\n    context.set('previousTemperature', temperature);\n}\n\nreturn { payload: temperature.toFixed(6) }; // Pyöristys 4 desimaaliin, jotta saadaan pois liialliset desimaalit",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 540,
+        "wires": [
+            [
+                "5be44c5f06258c82",
+                "8312eff89522edab",
+                "31349e493069ced6",
+                "2b3f2f5594769e20"
+            ]
+        ]
+    },
+    {
+        "id": "97193ddf476a0ce9",
+        "type": "function",
+        "z": "24406f9da8de06b1",
+        "name": "MOCK HMD",
+        "func": "var humidity = 60 + Math.random() * 0.2;\nhumidity = parseFloat(humidity.toFixed(1)); // Round to one decimal place\n\nif (context.get('previousHumidity') === undefined) {\n    // Set initial value\n    context.set('previousHumidity', humidity);\n} else {\n    // Limit change to between 0 and 0.3\n    var min = Math.max(context.get('previousHumidity') - 0.3, 60);\n    var max = Math.min(context.get('previousHumidity') + 0.3, 60.2);\n    humidity = Math.min(Math.max(humidity, min), max);\n    context.set('previousHumidity', humidity);\n}\n\nreturn { payload: humidity };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 580,
+        "wires": [
+            [
+                "aadacf8343eb2fa0",
+                "c77276cbf9d0c9eb",
+                "5a33807615a95326",
+                "a90bc9dea50cb7ef"
+            ]
+        ]
+    },
+    {
+        "id": "07645401a1690273",
+        "type": "function",
+        "z": "24406f9da8de06b1",
+        "name": "MOCK PRS",
+        "func": "var pressure = 100 + Math.random() * 0.5;\npressure = parseFloat(pressure.toFixed(2)); // Round to two decimal places\n\nif (context.get('previousPressure') === undefined) {\n    // Set initial value\n    context.set('previousPressure', pressure);\n} else {\n    // Limit change to between 0 and 0.9\n    var min = Math.max(context.get('previousPressure') - 0.9, 100);\n    var max = Math.min(context.get('previousPressure') + 0.9, 100.5);\n    pressure = Math.min(Math.max(pressure, min), max);\n    context.set('previousPressure', pressure);\n}\n\nreturn { payload: pressure };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 620,
+        "wires": [
+            [
+                "a0dd70b750b5dc4f",
+                "60caf05ea551bb0e",
+                "6fbe21e90877e5ec",
+                "4f9f488a46d0ade2"
+            ]
+        ]
+    },
+    {
+        "id": "134851b643922fb0",
+        "type": "function",
+        "z": "24406f9da8de06b1",
+        "name": "MOCK TMP",
+        "func": "var temperature = 21 + Math.random() * 2;\ntemperature = parseFloat(temperature.toFixed(2)); // Pyöristys 2 desimaaliin\n\nif (context.get('previousTemperature') === undefined) {\n    // Laitetaan alkuarvo\n    context.set('previousTemperature', temperature);\n} else {\n    // Rajoitetaan muutos 0 ja 0.10 välillä\n    var min = Math.max(context.get('previousTemperature') - 0.09, 21);\n    var max = Math.min(context.get('previousTemperature') + 0.09, 23);\n    temperature = Math.min(Math.max(temperature, min), max);\n    context.set('previousTemperature', temperature);\n}\n\nreturn { payload: temperature.toFixed(6) }; // Pyöristys 4 desimaaliin, jotta saadaan pois liialliset desimaalit",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 720,
+        "wires": [
+            [
+                "0b5218288a81e162",
+                "8312eff89522edab",
+                "73d707f5893e4684",
+                "ca180a9041278118"
+            ]
+        ]
+    },
+    {
+        "id": "1b24fb247c6fe50d",
+        "type": "function",
+        "z": "24406f9da8de06b1",
+        "name": "MOCK HMD",
+        "func": "var humidity = 60 + Math.random() * 0.2;\nhumidity = parseFloat(humidity.toFixed(1)); // Round to one decimal place\n\nif (context.get('previousHumidity') === undefined) {\n    // Set initial value\n    context.set('previousHumidity', humidity);\n} else {\n    // Limit change to between 0 and 0.3\n    var min = Math.max(context.get('previousHumidity') - 0.3, 60);\n    var max = Math.min(context.get('previousHumidity') + 0.3, 60.2);\n    humidity = Math.min(Math.max(humidity, min), max);\n    context.set('previousHumidity', humidity);\n}\n\nreturn { payload: humidity };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 760,
+        "wires": [
+            [
+                "6877a62a1c7f02dd",
+                "c77276cbf9d0c9eb",
+                "0f6a240b43f6ef65",
+                "fef9e8934c522069"
+            ]
+        ]
+    },
+    {
+        "id": "56d65a958ace676e",
+        "type": "function",
+        "z": "24406f9da8de06b1",
+        "name": "MOCK PRS",
+        "func": "var pressure = 100 + Math.random() * 0.5;\npressure = parseFloat(pressure.toFixed(2)); // Round to two decimal places\n\nif (context.get('previousPressure') === undefined) {\n    // Set initial value\n    context.set('previousPressure', pressure);\n} else {\n    // Limit change to between 0 and 0.9\n    var min = Math.max(context.get('previousPressure') - 0.9, 100);\n    var max = Math.min(context.get('previousPressure') + 0.9, 100.5);\n    pressure = Math.min(Math.max(pressure, min), max);\n    context.set('previousPressure', pressure);\n}\n\nreturn { payload: pressure };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 800,
+        "wires": [
+            [
+                "f4cc0d8043303881",
+                "60caf05ea551bb0e",
+                "e8dccae15768fc43",
+                "6656ca8e53ce577d"
+            ]
+        ]
+    },
+    {
+        "id": "09d179d0dd2ec63b",
+        "type": "function",
+        "z": "24406f9da8de06b1",
+        "name": "MOCK TMP",
+        "func": "var temperature = 21 + Math.random() * 2;\ntemperature = parseFloat(temperature.toFixed(2)); // Pyöristys 2 desimaaliin\n\nif (context.get('previousTemperature') === undefined) {\n    // Laitetaan alkuarvo\n    context.set('previousTemperature', temperature);\n} else {\n    // Rajoitetaan muutos 0 ja 0.10 välillä\n    var min = Math.max(context.get('previousTemperature') - 0.09, 21);\n    var max = Math.min(context.get('previousTemperature') + 0.09, 23);\n    temperature = Math.min(Math.max(temperature, min), max);\n    context.set('previousTemperature', temperature);\n}\n\nreturn { payload: temperature.toFixed(6) }; // Pyöristys 4 desimaaliin, jotta saadaan pois liialliset desimaalit",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 900,
+        "wires": [
+            [
+                "1c6b227677a93d5c",
+                "8312eff89522edab",
+                "7ce5152927a001d2",
+                "7a04aab7e3b4d7db"
+            ]
+        ]
+    },
+    {
+        "id": "bb2eaff536cc43a7",
+        "type": "function",
+        "z": "24406f9da8de06b1",
+        "name": "MOCK HMD",
+        "func": "var humidity = 60 + Math.random() * 0.2;\nhumidity = parseFloat(humidity.toFixed(1)); // Round to one decimal place\n\nif (context.get('previousHumidity') === undefined) {\n    // Set initial value\n    context.set('previousHumidity', humidity);\n} else {\n    // Limit change to between 0 and 0.3\n    var min = Math.max(context.get('previousHumidity') - 0.3, 60);\n    var max = Math.min(context.get('previousHumidity') + 0.3, 60.2);\n    humidity = Math.min(Math.max(humidity, min), max);\n    context.set('previousHumidity', humidity);\n}\n\nreturn { payload: humidity };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 940,
+        "wires": [
+            [
+                "aa8143b45475989f",
+                "c77276cbf9d0c9eb",
+                "3684356340e79adb",
+                "78ee498663e4111b"
+            ]
+        ]
+    },
+    {
+        "id": "f698de4f29a5ba1a",
+        "type": "function",
+        "z": "24406f9da8de06b1",
+        "name": "MOCK PRS",
+        "func": "var pressure = 100 + Math.random() * 0.5;\npressure = parseFloat(pressure.toFixed(2)); // Round to two decimal places\n\nif (context.get('previousPressure') === undefined) {\n    // Set initial value\n    context.set('previousPressure', pressure);\n} else {\n    // Limit change to between 0 and 0.9\n    var min = Math.max(context.get('previousPressure') - 0.9, 100);\n    var max = Math.min(context.get('previousPressure') + 0.9, 100.5);\n    pressure = Math.min(Math.max(pressure, min), max);\n    context.set('previousPressure', pressure);\n}\n\nreturn { payload: pressure };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 980,
+        "wires": [
+            [
+                "a78c3098091e3e24",
+                "60caf05ea551bb0e",
+                "9397b9afda616998",
+                "b15c568932d574d8"
+            ]
+        ]
+    },
+    {
+        "id": "aadacf8343eb2fa0",
+        "type": "ui_gauge",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "7ab12c2ae0eec8ce",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "HMD",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 670,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "a0dd70b750b5dc4f",
+        "type": "ui_gauge",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "7ab12c2ae0eec8ce",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "PRS",
+        "label": "KPa",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "200",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 670,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "5be44c5f06258c82",
+        "type": "ui_gauge",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "7ab12c2ae0eec8ce",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "TEMP",
+        "label": "C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "10",
+        "seg2": "40",
+        "diff": false,
+        "className": "",
+        "x": 670,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "1c6b227677a93d5c",
+        "type": "ui_gauge",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "6b048e2e2a0f5d4f",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "TEMP",
+        "label": "C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 670,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "a78c3098091e3e24",
+        "type": "ui_gauge",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "162bd576507377cb",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "PRS",
+        "label": "KPa",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "200",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 670,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "aa8143b45475989f",
+        "type": "ui_gauge",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "6b048e2e2a0f5d4f",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "HMD",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 670,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "0b5218288a81e162",
+        "type": "ui_gauge",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "162bd576507377cb",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "TEMP",
+        "label": "C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 670,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "f4cc0d8043303881",
+        "type": "ui_gauge",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "6b048e2e2a0f5d4f",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "PRS",
+        "label": "KPa",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "200",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 670,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "6877a62a1c7f02dd",
+        "type": "ui_gauge",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "162bd576507377cb",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "HMD",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 670,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "10a82ed8524de613",
+        "type": "ui_gauge",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "7ab12c2ae0eec8ce",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "BATTERY",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#b50000",
+            "#e6e600",
+            "#0fff02"
+        ],
+        "seg1": "20",
+        "seg2": "55",
+        "diff": false,
+        "className": "",
+        "x": 690,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "3ca09ea2ec23b409",
+        "type": "function",
+        "z": "24406f9da8de06b1",
+        "name": "BATTERY DEMO",
+        "func": "if (context.get('batteryLevel') === undefined) {\n    // Alkuarvo ensimmäiselle kerralle\n    context.set('batteryLevel', 100);\n} else {\n    // Vähennetään arvosta 1\n    var batteryLevel = context.get('batteryLevel') - 1;\n    if (batteryLevel < 0) {\n        batteryLevel = 100; // Arvo takaisin 100 kun 0 saavutetaan\n    }\n    context.set('batteryLevel', batteryLevel);\n}\n\nreturn { payload: context.get('batteryLevel') };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 660,
+        "wires": [
+            [
+                "10a82ed8524de613",
+                "0c36c17b0202ccd9",
+                "94da2ff75aba8911"
+            ]
+        ]
+    },
+    {
+        "id": "7f30ab18f1e1e37c",
+        "type": "inject",
+        "z": "24406f9da8de06b1",
+        "name": "RUUVITAG",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 150,
+        "y": 600,
+        "wires": [
+            [
+                "4ba75d97082e7c7b",
+                "97193ddf476a0ce9",
+                "07645401a1690273",
+                "3ca09ea2ec23b409"
+            ]
+        ]
+    },
+    {
+        "id": "8155d407cfbd2a25",
+        "type": "inject",
+        "z": "24406f9da8de06b1",
+        "name": "RUUVITAG",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 150,
+        "y": 780,
+        "wires": [
+            [
+                "134851b643922fb0",
+                "1b24fb247c6fe50d",
+                "6795e6c84b68f47a",
+                "56d65a958ace676e"
+            ]
+        ]
+    },
+    {
+        "id": "0748aa43a1d7716d",
+        "type": "inject",
+        "z": "24406f9da8de06b1",
+        "name": "RUUVITAG",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 150,
+        "y": 960,
+        "wires": [
+            [
+                "09d179d0dd2ec63b",
+                "bb2eaff536cc43a7",
+                "f698de4f29a5ba1a",
+                "bc84bdc7d97233bc"
+            ]
+        ]
+    },
+    {
+        "id": "6795e6c84b68f47a",
+        "type": "function",
+        "z": "24406f9da8de06b1",
+        "name": "BATTERY DEMO",
+        "func": "if (context.get('batteryLevel') === undefined) {\n    // Alkuarvo ensimmäiselle kerralle\n    context.set('batteryLevel', 100);\n} else {\n    // Vähennetään arvosta 1\n    var batteryLevel = context.get('batteryLevel') - 0.5;\n    if (batteryLevel < 0) {\n        batteryLevel = 100; // Arvo takaisin 100 kun 0 saavutetaan\n    }\n    context.set('batteryLevel', batteryLevel);\n}\n\nreturn { payload: context.get('batteryLevel') };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 840,
+        "wires": [
+            [
+                "686c65c00fd821a1",
+                "0c36c17b0202ccd9",
+                "b3eb196e7e8b7742"
+            ]
+        ]
+    },
+    {
+        "id": "bc84bdc7d97233bc",
+        "type": "function",
+        "z": "24406f9da8de06b1",
+        "name": "BATTERY DEMO",
+        "func": "if (context.get('batteryLevel') === undefined) {\n    // Alkuarvo ensimmäiselle kerralle\n    context.set('batteryLevel', 100);\n} else {\n    // Vähennetään arvosta 1\n    var batteryLevel = context.get('batteryLevel') - 2;\n    if (batteryLevel < 0) {\n        batteryLevel = 100; // Arvo takaisin 100 kun 0 saavutetaan\n    }\n    context.set('batteryLevel', batteryLevel);\n}\n\nreturn { payload: context.get('batteryLevel') };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 1020,
+        "wires": [
+            [
+                "136698f71af0b62c",
+                "0c36c17b0202ccd9",
+                "3ef1d56fe65f7d25"
+            ]
+        ]
+    },
+    {
+        "id": "686c65c00fd821a1",
+        "type": "ui_gauge",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "162bd576507377cb",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "BATTERY",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#b50000",
+            "#e6e600",
+            "#0fff02"
+        ],
+        "seg1": "20",
+        "seg2": "55",
+        "diff": false,
+        "className": "",
+        "x": 690,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "136698f71af0b62c",
+        "type": "ui_gauge",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "group": "6b048e2e2a0f5d4f",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "BATTERY",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#b50000",
+            "#e6e600",
+            "#0fff02"
+        ],
+        "seg1": "20",
+        "seg2": "55",
+        "diff": false,
+        "className": "",
+        "x": 690,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "f41104f98cdca223",
+        "type": "ui_toast",
+        "z": "24406f9da8de06b1",
+        "position": "bottom right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "ALARM TMP",
+        "x": 1040,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "fd0294860220a7a9",
+        "type": "ui_toast",
+        "z": "24406f9da8de06b1",
+        "position": "bottom right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "ALARM HMD",
+        "x": 1040,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "c77276cbf9d0c9eb",
+        "type": "function",
+        "z": "24406f9da8de06b1",
+        "name": "ASETUSARVOT HMD",
+        "func": "var humidity = parseFloat(msg.payload);\n\nvar maxHumidity = flow.get('maxHumidity') || 60;\n\nvar current = new Date();\nif (humidity > maxHumidity + 1) {\n    var message = \"Humidity too high \" + humidity + \"% Clock: \" + current.toLocaleTimeString();\n    msg.payload = message;\n    return msg;\n}\n\nelse if (humidity < maxHumidity - 1) {\n    var message = \"Humidity too low \" + humidity + \"% Clock: \" + current.toLocaleTimeString();\n    msg.payload = message;\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 300,
+        "wires": [
+            [
+                "fd0294860220a7a9",
+                "4970cf1ba6fd7fd5"
+            ]
+        ]
+    },
+    {
+        "id": "a23a8d0e0b8c2458",
+        "type": "ui_toast",
+        "z": "24406f9da8de06b1",
+        "position": "bottom right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "ALARM PRS",
+        "x": 1040,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "60caf05ea551bb0e",
+        "type": "function",
+        "z": "24406f9da8de06b1",
+        "name": "ASETUSARVOT PRS",
+        "func": "var pressure = parseFloat(msg.payload);\nvar maxPressure = flow.get('maxPressure') || 100\n\nvar current = new Date();\nif (pressure > maxPressure + 1) {\n    var message = \"Pressure too high \" + pressure + \"kPa Clock: \" + current.toLocaleTimeString();\n    msg.payload = message;\n    return msg;\n}\n\nelse if (pressure < maxPressure - 1) {\n    var message = \"Pressure too low \" + pressure + \"kPa Clock: \" + current.toLocaleTimeString();\n    msg.payload = message;\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 360,
+        "wires": [
+            [
+                "a23a8d0e0b8c2458",
+                "4970cf1ba6fd7fd5"
+            ]
+        ]
+    },
+    {
+        "id": "96df6a2226b7eebd",
+        "type": "ui_toast",
+        "z": "24406f9da8de06b1",
+        "position": "bottom right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "ALARM BATTERY",
+        "x": 1050,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "0c36c17b0202ccd9",
+        "type": "function",
+        "z": "24406f9da8de06b1",
+        "name": "ASETUSARVO BTR",
+        "func": "var battery = parseFloat(msg.payload);\nvar maxBattery = flow.get('maxBattery') || 15;\n\nvar current = new Date();\nif (battery < maxBattery) {\n    var message = \"Battery low \" + battery + \" Clock: \" + current.toLocaleTimeString();\n    msg.payload = message;\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 420,
+        "wires": [
+            [
+                "96df6a2226b7eebd",
+                "4970cf1ba6fd7fd5"
+            ]
+        ]
+    },
+    {
+        "id": "8312eff89522edab",
+        "type": "function",
+        "z": "24406f9da8de06b1",
+        "name": "ASETUSARVOT TMP",
+        "func": "var temperature = parseFloat(msg.payload);\n\nvar current = new Date();\nvar maxTemperature = flow.get('maxTemperature') || 22; // Get the maximum temperature limit from the flow context, or use 25 as the default value\n\nif (temperature > maxTemperature +0.5) {\n    var message = \"Temp too high \" + temperature + \"C Clock: \" + current.toLocaleTimeString();\n    msg.payload = message;\n    return msg;\n} else if (temperature < maxTemperature -0.5) {\n    message = \"Temp too low \" + temperature + \"C Clock: \" + current.toLocaleTimeString();\n    msg.payload = message;\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 240,
+        "wires": [
+            [
+                "f41104f98cdca223",
+                "4970cf1ba6fd7fd5"
+            ]
+        ]
+    },
+    {
+        "id": "9cc785cde2b27d73",
+        "type": "ui_numeric",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "label": "Temperature set value (+-0.5)",
+        "tooltip": "",
+        "group": "c0986fa1ac6430ef",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "maxTemperature",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "step": "0.1",
+        "className": "",
+        "x": 210,
+        "y": 240,
+        "wires": [
+            [
+                "934ccc43ec93b29d"
+            ]
+        ]
+    },
+    {
+        "id": "934ccc43ec93b29d",
+        "type": "function",
+        "z": "24406f9da8de06b1",
+        "name": "function 25",
+        "func": "flow.set('maxTemperature', parseFloat(msg.payload));\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 240,
+        "wires": [
+            [
+                "8312eff89522edab"
+            ]
+        ]
+    },
+    {
+        "id": "2e69f77d17acb41f",
+        "type": "ui_numeric",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "label": "Humidity set value (+-1)",
+        "tooltip": "",
+        "group": "c0986fa1ac6430ef",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": "40",
+        "max": "100",
+        "step": "0.5",
+        "className": "",
+        "x": 180,
+        "y": 300,
+        "wires": [
+            [
+                "559c90a5c83a1fd6"
+            ]
+        ]
+    },
+    {
+        "id": "e17654a109bc471e",
+        "type": "ui_numeric",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "label": "Pressure set value (+-1)",
+        "tooltip": "",
+        "group": "c0986fa1ac6430ef",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "maxTemperature",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": "80",
+        "max": "150",
+        "step": 1,
+        "className": "",
+        "x": 190,
+        "y": 360,
+        "wires": [
+            [
+                "d22a860cd044891c"
+            ]
+        ]
+    },
+    {
+        "id": "559c90a5c83a1fd6",
+        "type": "function",
+        "z": "24406f9da8de06b1",
+        "name": "function 26",
+        "func": "flow.set('maxHumidity', parseFloat(msg.payload));\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 300,
+        "wires": [
+            [
+                "c77276cbf9d0c9eb"
+            ]
+        ]
+    },
+    {
+        "id": "d22a860cd044891c",
+        "type": "function",
+        "z": "24406f9da8de06b1",
+        "name": "function 27",
+        "func": "flow.set('maxPressure', parseFloat(msg.payload));\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 360,
+        "wires": [
+            [
+                "60caf05ea551bb0e"
+            ]
+        ]
+    },
+    {
+        "id": "85ea01840aa9ee21",
+        "type": "ui_numeric",
+        "z": "24406f9da8de06b1",
+        "name": "",
+        "label": "Battery set value",
+        "tooltip": "",
+        "group": "c0986fa1ac6430ef",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "x": 160,
+        "y": 420,
+        "wires": [
+            [
+                "c0c543c59ace492a"
+            ]
+        ]
+    },
+    {
+        "id": "c0c543c59ace492a",
+        "type": "function",
+        "z": "24406f9da8de06b1",
+        "name": "function 28",
+        "func": "flow.set('maxBattery', parseFloat(msg.payload));\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 420,
+        "wires": [
+            [
+                "0c36c17b0202ccd9"
+            ]
+        ]
+    },
+    {
+        "id": "7bd800d528da5890",
+        "type": "ui_gauge",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "7ab12c2ae0eec8ce",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "HMD",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 970,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "7297da88e9af8bc6",
+        "type": "ui_gauge",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "7ab12c2ae0eec8ce",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "PRS",
+        "label": "kPa",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "200",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 970,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "9c38c30f9b74b80b",
+        "type": "ui_gauge",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "7ab12c2ae0eec8ce",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "TEMP",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 970,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "b81dc5c3d80e26a0",
+        "type": "ui_gauge",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "6b048e2e2a0f5d4f",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "TEMP",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 970,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "366f0cbe90e2af08",
+        "type": "ui_gauge",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "162bd576507377cb",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "PRS",
+        "label": "kPa",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "200",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 970,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "1bfbdb45f21139d3",
+        "type": "ui_button",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "6b048e2e2a0f5d4f",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "See sensor data",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1200,
+        "y": 900,
+        "wires": [
+            [
+                "575a2a62819d34a5"
+            ]
+        ]
+    },
+    {
+        "id": "6ed2c8604c4516d8",
+        "type": "ui_gauge",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "6b048e2e2a0f5d4f",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "HMD",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 970,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "6dc8d842e67c5da8",
+        "type": "ui_gauge",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "162bd576507377cb",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "TEMP",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 970,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "47578c816ee958a0",
+        "type": "ui_gauge",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "6b048e2e2a0f5d4f",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "PRS",
+        "label": "kPa",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "200",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 970,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "0344f7518b2b2eef",
+        "type": "ui_button",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "162bd576507377cb",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "See sensor data",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1200,
+        "y": 580,
+        "wires": [
+            [
+                "7996d252956c3e4b"
+            ]
+        ]
+    },
+    {
+        "id": "d49efbe46cc81365",
+        "type": "ui_gauge",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "162bd576507377cb",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "HMD",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 970,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "931b78f298f85252",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "MOCK TMP",
+        "func": "var temperature = 21 + Math.random() * 2;\ntemperature = parseFloat(temperature.toFixed(2)); // Pyöristys 2 desimaaliin\n\nif (context.get('previousTemperature') === undefined) {\n    // Laitetaan alkuarvo\n    context.set('previousTemperature', temperature);\n} else {\n    // Rajoitetaan muutos 0 ja 0.10 välillä\n    var min = Math.max(context.get('previousTemperature') - 0.09, 21);\n    var max = Math.min(context.get('previousTemperature') + 0.09, 23);\n    temperature = Math.min(Math.max(temperature, min), max);\n    context.set('previousTemperature', temperature);\n}\n\nvar myArray = [temperature.toFixed(6), 1];\n\nreturn { payload: myArray }; // Pyöristys 4 desimaaliin, jotta saadaan pois liialliset desimaalit",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 320,
+        "wires": [
+            [
+                "9c38c30f9b74b80b",
+                "194a8dda2f04cf77",
+                "2b14c376731ab7f4",
+                "fceb55c12fc374c4"
+            ]
+        ]
+    },
+    {
+        "id": "58e5a0b20595ef99",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "MOCK HMD",
+        "func": "var humidity = 60 + Math.random() * 0.2;\nhumidity = parseFloat(humidity.toFixed(1)); // Round to one decimal place\n\nif (context.get('previousHumidity') === undefined) {\n    // Set initial value\n    context.set('previousHumidity', humidity);\n} else {\n    // Limit change to between 0 and 0.3\n    var min = Math.max(context.get('previousHumidity') - 0.3, 60);\n    var max = Math.min(context.get('previousHumidity') + 0.3, 60.2);\n    humidity = Math.min(Math.max(humidity, min), max);\n    context.set('previousHumidity', humidity);\n}\n\nvar myArray = [humidity, 1];\n\nreturn { payload: myArray };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 360,
+        "wires": [
+            [
+                "7bd800d528da5890",
+                "97b6c99e5841cbab",
+                "5c928efd9df60d60",
+                "acb16e0a9618e675"
+            ]
+        ]
+    },
+    {
+        "id": "2e6d3cf4d55753b9",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "MOCK PRS",
+        "func": "var pressure = 100 + Math.random() * 0.5;\npressure = parseFloat(pressure.toFixed(2)); // Round to two decimal places\n\nif (context.get('previousPressure') === undefined) {\n    // Set initial value\n    context.set('previousPressure', pressure);\n} else {\n    // Limit change to between 0 and 0.9\n    var min = Math.max(context.get('previousPressure') - 0.9, 100);\n    var max = Math.min(context.get('previousPressure') + 0.9, 100.5);\n    pressure = Math.min(Math.max(pressure, min), max);\n    context.set('previousPressure', pressure);\n}\nvar myArray = [pressure, 1];\n\nreturn { payload: myArray };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 400,
+        "wires": [
+            [
+                "7297da88e9af8bc6",
+                "0f7235228f56e51a",
+                "f72cb60ea8201309",
+                "429f45b2c85f52d1"
+            ]
+        ]
+    },
+    {
+        "id": "093c23bce475e3e8",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "MOCK TMP",
+        "func": "var temperature = 21 + Math.random() * 2;\ntemperature = parseFloat(temperature.toFixed(2)); // Pyöristys 2 desimaaliin\n\nif (context.get('previousTemperature') === undefined) {\n    // Laitetaan alkuarvo\n    context.set('previousTemperature', temperature);\n} else {\n    // Rajoitetaan muutos 0 ja 0.10 välillä\n    var min = Math.max(context.get('previousTemperature') - 0.09, 21);\n    var max = Math.min(context.get('previousTemperature') + 0.09, 23);\n    temperature = Math.min(Math.max(temperature, min), max);\n    context.set('previousTemperature', temperature);\n}\n\nvar myArray = [temperature.toFixed(6), 2];\n\nreturn { payload: myArray }; // Pyöristys 4 desimaaliin, jotta saadaan pois liialliset desimaalit",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 660,
+        "wires": [
+            [
+                "6dc8d842e67c5da8",
+                "f41bded1b46245ec",
+                "2b14c376731ab7f4",
+                "bc012a735bbb6bf8"
+            ]
+        ]
+    },
+    {
+        "id": "1b6810113607f18b",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "MOCK HMD",
+        "func": "var humidity = 60 + Math.random() * 0.2;\nhumidity = parseFloat(humidity.toFixed(1)); // Round to one decimal place\n\nif (context.get('previousHumidity') === undefined) {\n    // Set initial value\n    context.set('previousHumidity', humidity);\n} else {\n    // Limit change to between 0 and 0.3\n    var min = Math.max(context.get('previousHumidity') - 0.3, 60);\n    var max = Math.min(context.get('previousHumidity') + 0.3, 60.2);\n    humidity = Math.min(Math.max(humidity, min), max);\n    context.set('previousHumidity', humidity);\n}\nvar myArray = [humidity, 2];\n\nreturn { payload: myArray };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 700,
+        "wires": [
+            [
+                "d49efbe46cc81365",
+                "9acb247c30552840",
+                "5c928efd9df60d60",
+                "f2bfc2da864126c7"
+            ]
+        ]
+    },
+    {
+        "id": "4702db657ddb3289",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "MOCK PRS",
+        "func": "var pressure = 100 + Math.random() * 0.5;\npressure = parseFloat(pressure.toFixed(2)); // Round to two decimal places\n\nif (context.get('previousPressure') === undefined) {\n    // Set initial value\n    context.set('previousPressure', pressure);\n} else {\n    // Limit change to between 0 and 0.9\n    var min = Math.max(context.get('previousPressure') - 0.9, 100);\n    var max = Math.min(context.get('previousPressure') + 0.9, 100.5);\n    pressure = Math.min(Math.max(pressure, min), max);\n    context.set('previousPressure', pressure);\n}\nvar myArray = [pressure, 2];\n\nreturn { payload: myArray };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 740,
+        "wires": [
+            [
+                "47578c816ee958a0",
+                "4d33ebc6a24df817",
+                "f72cb60ea8201309",
+                "f4e33ced37a6aac0"
+            ]
+        ]
+    },
+    {
+        "id": "e355b7f4806a52e0",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "MOCK TMP",
+        "func": "var temperature = 21 + Math.random() * 2;\ntemperature = parseFloat(temperature.toFixed(2)); // Pyöristys 2 desimaaliin\n\nif (context.get('previousTemperature') === undefined) {\n    // Laitetaan alkuarvo\n    context.set('previousTemperature', temperature);\n} else {\n    // Rajoitetaan muutos 0 ja 0.10 välillä\n    var min = Math.max(context.get('previousTemperature') - 0.09, 21);\n    var max = Math.min(context.get('previousTemperature') + 0.09, 23);\n    temperature = Math.min(Math.max(temperature, min), max);\n    context.set('previousTemperature', temperature);\n}\n\nvar myArray = [temperature.toFixed(6), 3];\n\nreturn { payload: myArray }; // Pyöristys 4 desimaaliin, jotta saadaan pois liialliset desimaalit ",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 980,
+        "wires": [
+            [
+                "b81dc5c3d80e26a0",
+                "139593fc97794248",
+                "2b14c376731ab7f4",
+                "231b962e19b7e143"
+            ]
+        ]
+    },
+    {
+        "id": "fd47bcf7a0a7d076",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "MOCK HMD",
+        "func": "var humidity = 60 + Math.random() * 0.2;\nhumidity = parseFloat(humidity.toFixed(1)); // Round to one decimal place\n\nif (context.get('previousHumidity') === undefined) {\n    // Set initial value\n    context.set('previousHumidity', humidity);\n} else {\n    // Limit change to between 0 and 0.3\n    var min = Math.max(context.get('previousHumidity') - 0.3, 60);\n    var max = Math.min(context.get('previousHumidity') + 0.3, 60.2);\n    humidity = Math.min(Math.max(humidity, min), max);\n    context.set('previousHumidity', humidity);\n}\n\nvar myArray = [humidity, 3];\n\nreturn { payload: myArray };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 1020,
+        "wires": [
+            [
+                "6ed2c8604c4516d8",
+                "58e1fd7507802707",
+                "5c928efd9df60d60",
+                "ceccc6f0a4779230"
+            ]
+        ]
+    },
+    {
+        "id": "aac536f3126e44b5",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "MOCK PRS",
+        "func": "var pressure = 100 + Math.random() * 0.5;\npressure = parseFloat(pressure.toFixed(2)); // Round to two decimal places\n\nif (context.get('previousPressure') === undefined) {\n    // Set initial value\n    context.set('previousPressure', pressure);\n} else {\n    // Limit change to between 0 and 0.9\n    var min = Math.max(context.get('previousPressure') - 0.9, 100);\n    var max = Math.min(context.get('previousPressure') + 0.9, 100.5);\n    pressure = Math.min(Math.max(pressure, min), max);\n    context.set('previousPressure', pressure);\n}\nvar myArray = [pressure, 3];\n\nreturn { payload: myArray };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 1060,
+        "wires": [
+            [
+                "366f0cbe90e2af08",
+                "617acfc36c479dfb",
+                "f72cb60ea8201309",
+                "581b483fbb69988c"
+            ]
+        ]
+    },
+    {
+        "id": "c218655645491ca7",
+        "type": "ui_ui_control",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "events": "change",
+        "x": 1580,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d277f6f59a05fa98",
+        "type": "ui_ui_control",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "events": "change",
+        "x": 1580,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b0cc1dbc812f1e2e",
+        "type": "ui_gauge",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "7ab12c2ae0eec8ce",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "BATTERY",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#b30000",
+            "#e6e600",
+            "#4acb3a"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 980,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "dd2b184dc6e1a346",
+        "type": "inject",
+        "z": "f6602546c6de8b09",
+        "name": "RuuviTag",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.3",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 550,
+        "y": 380,
+        "wires": [
+            [
+                "931b78f298f85252",
+                "58e5a0b20595ef99",
+                "2e6d3cf4d55753b9",
+                "bf5e7f3bdb817a26"
+            ]
+        ]
+    },
+    {
+        "id": "cf0acb5b6a0aa417",
+        "type": "inject",
+        "z": "f6602546c6de8b09",
+        "name": "RuuviTag",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.3",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 550,
+        "y": 720,
+        "wires": [
+            [
+                "093c23bce475e3e8",
+                "1b6810113607f18b",
+                "4702db657ddb3289",
+                "af390c0e6bda8682"
+            ]
+        ]
+    },
+    {
+        "id": "40d68c123016745f",
+        "type": "inject",
+        "z": "f6602546c6de8b09",
+        "name": "RuuviTag",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.3",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 550,
+        "y": 1040,
+        "wires": [
+            [
+                "e355b7f4806a52e0",
+                "fd47bcf7a0a7d076",
+                "aac536f3126e44b5",
+                "b878639e220bb9f8"
+            ]
+        ]
+    },
+    {
+        "id": "bf5e7f3bdb817a26",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "MOCK BATTERY",
+        "func": "if (context.get('batteryLevel') === undefined) {\n    // Alkuarvo ensimmäiselle kerralle\n    context.set('batteryLevel', 100);\n} else {\n    // Vähennetään arvosta 1\n    var batteryLevel = context.get('batteryLevel') - 1;\n    if (batteryLevel < 0) {\n        batteryLevel = 100; // Arvo takaisin 100 kun 0 saavutetaan\n    }\n    context.set('batteryLevel', batteryLevel);\n}\n\nvar myArray = [context.get('batteryLevel'), 1];\n\nreturn { payload: myArray };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 440,
+        "wires": [
+            [
+                "b0cc1dbc812f1e2e",
+                "637cb402b6d40eb1",
+                "ac519a253c6c16a9"
+            ]
+        ]
+    },
+    {
+        "id": "af390c0e6bda8682",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "MOCK BATTERY",
+        "func": "if (context.get('batteryLevel') === undefined) {\n    // Alkuarvo ensimmäiselle kerralle\n    context.set('batteryLevel', 100);\n} else {\n    // Vähennetään arvosta 1\n    var batteryLevel = context.get('batteryLevel') - 1;\n    if (batteryLevel < 0) {\n        batteryLevel = 100; // Arvo takaisin 100 kun 0 saavutetaan\n    }\n    context.set('batteryLevel', batteryLevel);\n}\n\nvar myArray = [context.get('batteryLevel'), 2];\n\nreturn { payload: myArray };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 780,
+        "wires": [
+            [
+                "0901764ae7c0b490",
+                "637cb402b6d40eb1",
+                "5376fb741ec11d09"
+            ]
+        ]
+    },
+    {
+        "id": "b878639e220bb9f8",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "MOCK BATTERY",
+        "func": "if (context.get('batteryLevel') === undefined) {\n    // Alkuarvo ensimmäiselle kerralle\n    context.set('batteryLevel', 100);\n} else {\n    // Vähennetään arvosta 1\n    var batteryLevel = context.get('batteryLevel') - 1;\n    if (batteryLevel < 0) {\n        batteryLevel = 100; // Arvo takaisin 100 kun 0 saavutetaan\n    }\n    context.set('batteryLevel', batteryLevel);\n}\n\nvar myArray = [context.get('batteryLevel'), 3];\n\nreturn { payload: myArray };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 1100,
+        "wires": [
+            [
+                "2dcdb09f234421b8",
+                "637cb402b6d40eb1",
+                "b78e1ae554f1034f"
+            ]
+        ]
+    },
+    {
+        "id": "240a7579503f8ef2",
+        "type": "ui_button",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "7ab12c2ae0eec8ce",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "See sensor data",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1200,
+        "y": 240,
+        "wires": [
+            [
+                "8bca8365a9a7bd88"
+            ]
+        ]
+    },
+    {
+        "id": "38e8cbe9f920a903",
+        "type": "ui_ui_control",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "events": "change",
+        "x": 1580,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "59a15662bffc5933",
+        "type": "ui_chart",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "4bdfb7f69966c858",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "TEMP_CHART (°C)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "20",
+        "ymax": "25",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1550,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8bca8365a9a7bd88",
+        "type": "change",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\":\"Sensor_1\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1400,
+        "y": 240,
+        "wires": [
+            [
+                "38e8cbe9f920a903"
+            ]
+        ]
+    },
+    {
+        "id": "a364826678eb615b",
+        "type": "ui_ui_control",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "events": "all",
+        "x": 1580,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fe22093362c79018",
+        "type": "ui_button",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "18239e31443b7c77",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Return",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1170,
+        "y": 280,
+        "wires": [
+            [
+                "8ba5b7b2bc6b9625"
+            ]
+        ]
+    },
+    {
+        "id": "8ba5b7b2bc6b9625",
+        "type": "change",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\":\"Main\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1400,
+        "y": 280,
+        "wires": [
+            [
+                "a364826678eb615b"
+            ]
+        ]
+    },
+    {
+        "id": "ba1d6d4e9a23d968",
+        "type": "ui_chart",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "faa41abe9b81ad42",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "HMD_CHART (%)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "58",
+        "ymax": "62",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1550,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "897a3ba1ea497e3c",
+        "type": "ui_chart",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "d7b2ae6b1cfec791",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "PRS_CHART (kPa)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "95",
+        "ymax": "105",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1550,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "97b6c99e5841cbab",
+        "type": "ui_gauge",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "18239e31443b7c77",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "HMD",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1130,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "0f7235228f56e51a",
+        "type": "ui_gauge",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "18239e31443b7c77",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "PRS",
+        "label": "KPa",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "200",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1130,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "194a8dda2f04cf77",
+        "type": "ui_gauge",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "18239e31443b7c77",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "TEMP",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1130,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "7996d252956c3e4b",
+        "type": "change",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\":\"Sensor_2\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1400,
+        "y": 580,
+        "wires": [
+            [
+                "d277f6f59a05fa98"
+            ]
+        ]
+    },
+    {
+        "id": "626e26510d3ec97d",
+        "type": "ui_chart",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "da9d11e51aaf6217",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "TEMP_CHART (°C)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "20",
+        "ymax": "25",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1550,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6e4cea1afe412e2d",
+        "type": "ui_chart",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "a0e5e8216708f606",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "HMD_CHART (%)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "58",
+        "ymax": "62",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1550,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "86f0275088068452",
+        "type": "ui_chart",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "17e1caa1146f48b0",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "PRS_CHART (kPa)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "95",
+        "ymax": "105",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1550,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9acb247c30552840",
+        "type": "ui_gauge",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "139bf1beaf52aee0",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "HMD",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1130,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "4d33ebc6a24df817",
+        "type": "ui_gauge",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "139bf1beaf52aee0",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "PRS",
+        "label": "KPa",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "200",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1130,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "f41bded1b46245ec",
+        "type": "ui_gauge",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "139bf1beaf52aee0",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "TEMP",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1130,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "575a2a62819d34a5",
+        "type": "change",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\":\"Sensor_3\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1400,
+        "y": 900,
+        "wires": [
+            [
+                "c218655645491ca7"
+            ]
+        ]
+    },
+    {
+        "id": "a8a2ce51d089f7fb",
+        "type": "ui_ui_control",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "events": "all",
+        "x": 1580,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a8331a74829ca545",
+        "type": "ui_button",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "139bf1beaf52aee0",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Return",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1170,
+        "y": 620,
+        "wires": [
+            [
+                "380d7cc43de0da4d"
+            ]
+        ]
+    },
+    {
+        "id": "380d7cc43de0da4d",
+        "type": "change",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\":\"Main\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1400,
+        "y": 620,
+        "wires": [
+            [
+                "a8a2ce51d089f7fb"
+            ]
+        ]
+    },
+    {
+        "id": "7ae1c27859bd37c2",
+        "type": "ui_chart",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "8ff07073af686213",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "TEMP_CHART (°C)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "20",
+        "ymax": "25",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1550,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "02434f28d121bc99",
+        "type": "ui_chart",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "e5fe0b46cfdeb365",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "HMD_CHART (%)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "58",
+        "ymax": "62",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1550,
+        "y": 1020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "07e51af1bfe7eb8b",
+        "type": "ui_chart",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "c03688211025e544",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "PRS_CHART (kPa)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "95",
+        "ymax": "105",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1550,
+        "y": 1060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "58e1fd7507802707",
+        "type": "ui_gauge",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "086eaeb08b4f855e",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "HMD",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1130,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "617acfc36c479dfb",
+        "type": "ui_gauge",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "086eaeb08b4f855e",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "PRS",
+        "label": "KPa",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "200",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1130,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "139593fc97794248",
+        "type": "ui_gauge",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "086eaeb08b4f855e",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "TEMP",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1130,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "06122c4db2edade5",
+        "type": "ui_ui_control",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "events": "all",
+        "x": 1580,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c373a8042a112a6b",
+        "type": "ui_button",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "086eaeb08b4f855e",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Return",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1170,
+        "y": 940,
+        "wires": [
+            [
+                "c54d9cc4eb1854c6"
+            ]
+        ]
+    },
+    {
+        "id": "c54d9cc4eb1854c6",
+        "type": "change",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\":\"Main\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1400,
+        "y": 940,
+        "wires": [
+            [
+                "06122c4db2edade5"
+            ]
+        ]
+    },
+    {
+        "id": "0901764ae7c0b490",
+        "type": "ui_gauge",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "162bd576507377cb",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "BATTERY",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#b30000",
+            "#e6e600",
+            "#4acb3a"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 980,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "2dcdb09f234421b8",
+        "type": "ui_gauge",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "6b048e2e2a0f5d4f",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "BATTERY",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#b30000",
+            "#e6e600",
+            "#4acb3a"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 980,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "749342805ecc033e",
+        "type": "ui_gauge",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "18239e31443b7c77",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "BATTERY",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#b30000",
+            "#e6e600",
+            "#4acb3a"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 1520,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "3fadeb7dee4818ce",
+        "type": "ui_gauge",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "139bf1beaf52aee0",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "BATTERY",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#b30000",
+            "#e6e600",
+            "#4acb3a"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 1520,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "4cfe64c674cfb3d4",
+        "type": "ui_gauge",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "group": "086eaeb08b4f855e",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "BATTERY",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#b30000",
+            "#e6e600",
+            "#4acb3a"
+        ],
+        "seg1": "30",
+        "seg2": "70",
+        "diff": false,
+        "className": "",
+        "x": 1520,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "0be69cfcb31a6c2a",
+        "type": "ui_toast",
+        "z": "f6602546c6de8b09",
+        "position": "bottom right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "ALARM TMP",
+        "x": 1300,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "65c3e41b2e05d3f0",
+        "type": "ui_toast",
+        "z": "f6602546c6de8b09",
+        "position": "bottom right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "ALARM HMD",
+        "x": 1300,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "5c928efd9df60d60",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "ASETUSARVOT HMD",
+        "func": "var error = flow.get('errHumidity')\nif (Array.isArray(msg.payload)) {\n    var myArray = msg.payload;\n    var humidity = myArray[0];\n    var sensor = myArray[1];\n\n    var maxHumidity = flow.get('maxHumidity') || 60;\n\n    var current = new Date();\n    if (humidity > maxHumidity + error) {\n        var message = \"sensor \" + sensor + \" Humidity too high \" + humidity + \"% Clock: \" + current.toLocaleTimeString();\n        msg.payload = message;\n        return msg;\n    }\n\n    else if (humidity < maxHumidity - error) {\n        var message = \"sensor \" + sensor + \" Humidity too low \" + humidity + \"% Clock: \" + current.toLocaleTimeString();\n        msg.payload = message;\n        return msg;\n    }\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 1320,
+        "wires": [
+            [
+                "65c3e41b2e05d3f0",
+                "f8af7a065a907f02"
+            ]
+        ]
+    },
+    {
+        "id": "fb867ab3850b17ad",
+        "type": "ui_toast",
+        "z": "f6602546c6de8b09",
+        "position": "bottom right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "ALARM PRS",
+        "x": 1300,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "f72cb60ea8201309",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "ASETUSARVOT PRS",
+        "func": "var error = flow.get('errPressure')\nif (Array.isArray(msg.payload)) {\n    var myArray = msg.payload;\n    var pressure = myArray[0];\n    var sensor = myArray[1];\n    var maxPressure = flow.get('maxPressure') || 100\n\n    var current = new Date();\n    if (pressure > maxPressure + error) {\n        var message = \"sensor \" + sensor + \" Pressure too high \" + pressure + \"kPa Clock: \" + current.toLocaleTimeString();\n        msg.payload = message;\n        return msg;\n    }\n\n    else if (pressure < maxPressure - error) {\n        var message = \"sensor \" + sensor + \" Pressure too low \" + pressure + \"kPa Clock: \" + current.toLocaleTimeString();\n        msg.payload = message;\n        return msg;\n    }\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 1400,
+        "wires": [
+            [
+                "fb867ab3850b17ad",
+                "f8af7a065a907f02"
+            ]
+        ]
+    },
+    {
+        "id": "0e1afb10379bf0d9",
+        "type": "ui_toast",
+        "z": "f6602546c6de8b09",
+        "position": "bottom right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "ALARM BATTERY",
+        "x": 1310,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "637cb402b6d40eb1",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "ASETUSARVO BTR",
+        "func": "if (Array.isArray(msg.payload)) {\n    var myArray = msg.payload;\n    var battery = myArray[0];\n    var sensor = myArray[1];\n    var maxBattery = flow.get('maxBattery') || 15;\n\n    var current = new Date();\n    if (battery < maxBattery) {\n        var message = \"sensor \" + sensor + \" Battery low \" + battery + \" Clock: \" + current.toLocaleTimeString();\n        msg.payload = message;\n        return msg;\n    }\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1030,
+        "y": 1460,
+        "wires": [
+            [
+                "0e1afb10379bf0d9",
+                "f8af7a065a907f02"
+            ]
+        ]
+    },
+    {
+        "id": "6ed624befb1648e2",
+        "type": "file",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "filename": "F:\\Log.html",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 1490,
+        "y": 1520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f8af7a065a907f02",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "function 25",
+        "func": "var message = msg.payload.toString();\nvar html_message = \"<p>\"+message+\"</p>\"\nconsole.log(html_message)\nmsg.payload = message;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1290,
+        "y": 1520,
+        "wires": [
+            [
+                "6ed624befb1648e2"
+            ]
+        ]
+    },
+    {
+        "id": "2b14c376731ab7f4",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "ASETUSARVOT TMP",
+        "func": "var error = flow.get('errTemperature')  || 1;\nif (Array.isArray(msg.payload)){\n    var myArray = msg.payload;\n    var temperature = myArray[0];\n    var sensor = myArray[1];\n\n    var current = new Date();\n    var maxTemperature = flow.get('maxTemperature') || 22; // Get the maximum temperature limit from the flow context, or use 25 as the default value\n\n    if (temperature > maxTemperature + error) {\n        var message = \"sensor \" + sensor + \" Temp too high \" + temperature + \"C Clock: \" + current.toLocaleTimeString();\n        msg.payload = message;\n        return msg;\n    } else if (temperature < maxTemperature - error) {\n        message = \"sensor \" + sensor+ \" Temp too low \" + temperature + \"C Clock: \" + current.toLocaleTimeString();\n        msg.payload = message;\n        return msg;\n    }\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 1240,
+        "wires": [
+            [
+                "0be69cfcb31a6c2a",
+                "f8af7a065a907f02"
+            ]
+        ]
+    },
+    {
+        "id": "6aaca3f45a2901ee",
+        "type": "ui_numeric",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "label": "Temperature set value",
+        "tooltip": "",
+        "group": "9928a3bdfe86464e",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "maxTemperature",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "step": "0.1",
+        "className": "",
+        "x": 440,
+        "y": 1260,
+        "wires": [
+            [
+                "ae6a10b13285a047"
+            ]
+        ]
+    },
+    {
+        "id": "ae6a10b13285a047",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "function 26",
+        "func": "flow.set('maxTemperature', parseFloat(msg.payload));\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 1260,
+        "wires": [
+            [
+                "2b14c376731ab7f4"
+            ]
+        ]
+    },
+    {
+        "id": "29e5853fae72cc1b",
+        "type": "ui_numeric",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "label": "Humidity set value ",
+        "tooltip": "",
+        "group": "9928a3bdfe86464e",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": "40",
+        "max": "100",
+        "step": "0.5",
+        "className": "",
+        "x": 470,
+        "y": 1340,
+        "wires": [
+            [
+                "fbd756171c55672c"
+            ]
+        ]
+    },
+    {
+        "id": "325c50cbc77628c7",
+        "type": "ui_numeric",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "label": "Pressure set value ",
+        "tooltip": "",
+        "group": "9928a3bdfe86464e",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "maxTemperature",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": "80",
+        "max": "150",
+        "step": 1,
+        "className": "",
+        "x": 470,
+        "y": 1420,
+        "wires": [
+            [
+                "d52b98e33d3b2f45"
+            ]
+        ]
+    },
+    {
+        "id": "fbd756171c55672c",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "function 27",
+        "func": "flow.set('maxHumidity', parseFloat(msg.payload));\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 1340,
+        "wires": [
+            [
+                "5c928efd9df60d60"
+            ]
+        ]
+    },
+    {
+        "id": "d52b98e33d3b2f45",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "function 28",
+        "func": "flow.set('maxPressure', parseFloat(msg.payload));\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 1420,
+        "wires": [
+            [
+                "f72cb60ea8201309"
+            ]
+        ]
+    },
+    {
+        "id": "5a310697ae6b97a2",
+        "type": "ui_numeric",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "label": "Battery set value",
+        "tooltip": "",
+        "group": "9928a3bdfe86464e",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "x": 510,
+        "y": 1460,
+        "wires": [
+            [
+                "1d6de19f1c0a414a"
+            ]
+        ]
+    },
+    {
+        "id": "1d6de19f1c0a414a",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "function 29",
+        "func": "flow.set('maxBattery', parseFloat(msg.payload));\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 1460,
+        "wires": [
+            [
+                "637cb402b6d40eb1"
+            ]
+        ]
+    },
+    {
+        "id": "fceb55c12fc374c4",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "function 30",
+        "func": "var myArray = msg.payload;\nvar temperature = myArray[0];\nreturn {payload : temperature};",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1330,
+        "y": 320,
+        "wires": [
+            [
+                "59a15662bffc5933"
+            ]
+        ]
+    },
+    {
+        "id": "bc012a735bbb6bf8",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "function 31",
+        "func": "var myArray = msg.payload;\nvar temperature = myArray[0];\nreturn {payload : temperature};",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1330,
+        "y": 660,
+        "wires": [
+            [
+                "626e26510d3ec97d"
+            ]
+        ]
+    },
+    {
+        "id": "231b962e19b7e143",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "function 32",
+        "func": "var myArray = msg.payload;\nvar temperature = myArray[0];\nreturn {payload : temperature};",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1330,
+        "y": 980,
+        "wires": [
+            [
+                "7ae1c27859bd37c2"
+            ]
+        ]
+    },
+    {
+        "id": "acb16e0a9618e675",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "function 33",
+        "func": "var myArray = msg.payload;\nvar humidity = myArray[0];\nreturn {payload : humidity};",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1330,
+        "y": 360,
+        "wires": [
+            [
+                "ba1d6d4e9a23d968"
+            ]
+        ]
+    },
+    {
+        "id": "f2bfc2da864126c7",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "function 34",
+        "func": "var myArray = msg.payload;\nvar humidity = myArray[0];\nreturn {payload : humidity};",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1330,
+        "y": 700,
+        "wires": [
+            [
+                "6e4cea1afe412e2d"
+            ]
+        ]
+    },
+    {
+        "id": "ceccc6f0a4779230",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "function 35",
+        "func": "var myArray = msg.payload;\nvar humidity = myArray[0];\nreturn {payload : humidity};",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1330,
+        "y": 1020,
+        "wires": [
+            [
+                "02434f28d121bc99"
+            ]
+        ]
+    },
+    {
+        "id": "f4e33ced37a6aac0",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "function 36",
+        "func": "var myArray = msg.payload;\nvar pressure = myArray[0];\nreturn {payload : pressure};",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1330,
+        "y": 740,
+        "wires": [
+            [
+                "86f0275088068452"
+            ]
+        ]
+    },
+    {
+        "id": "429f45b2c85f52d1",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "function 37",
+        "func": "var myArray = msg.payload;\nvar pressure = myArray[0];\nreturn {payload : pressure};",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1330,
+        "y": 400,
+        "wires": [
+            [
+                "897a3ba1ea497e3c"
+            ]
+        ]
+    },
+    {
+        "id": "581b483fbb69988c",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "function 38",
+        "func": "var myArray = msg.payload;\nvar pressure = myArray[0];\nreturn {payload : pressure};",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1330,
+        "y": 1060,
+        "wires": [
+            [
+                "07e51af1bfe7eb8b"
+            ]
+        ]
+    },
+    {
+        "id": "b78e1ae554f1034f",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "function 39",
+        "func": "var myArray = msg.payload;\nvar battery = myArray[0];\nreturn {payload : battery};",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1330,
+        "y": 1100,
+        "wires": [
+            [
+                "4cfe64c674cfb3d4"
+            ]
+        ]
+    },
+    {
+        "id": "5376fb741ec11d09",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "function 40",
+        "func": "var myArray = msg.payload;\nvar battery = myArray[0];\nreturn { payload: battery };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1330,
+        "y": 780,
+        "wires": [
+            [
+                "3fadeb7dee4818ce"
+            ]
+        ]
+    },
+    {
+        "id": "ac519a253c6c16a9",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "function 41",
+        "func": "var myArray = msg.payload;\nvar battery = myArray[0];\nreturn { payload: battery };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1330,
+        "y": 440,
+        "wires": [
+            [
+                "749342805ecc033e"
+            ]
+        ]
+    },
+    {
+        "id": "4fc2811f6d0ebddb",
+        "type": "ui_numeric",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "label": "Temperature error",
+        "tooltip": "",
+        "group": "9928a3bdfe86464e",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "step": "0.1",
+        "className": "",
+        "x": 530,
+        "y": 1220,
+        "wires": [
+            [
+                "f545d86a617271f9"
+            ]
+        ]
+    },
+    {
+        "id": "f545d86a617271f9",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "function 42",
+        "func": "flow.set('errTemperature', parseFloat(msg.payload));\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 1220,
+        "wires": [
+            [
+                "2b14c376731ab7f4"
+            ]
+        ]
+    },
+    {
+        "id": "f618928a9f193928",
+        "type": "ui_numeric",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "label": "Humidity error",
+        "tooltip": "",
+        "group": "9928a3bdfe86464e",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "step": "0.1",
+        "className": "",
+        "x": 520,
+        "y": 1300,
+        "wires": [
+            [
+                "079b0aa34b949d8b"
+            ]
+        ]
+    },
+    {
+        "id": "079b0aa34b949d8b",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "function 43",
+        "func": "flow.set('errHumidity', parseFloat(msg.payload));\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 1300,
+        "wires": [
+            [
+                "5c928efd9df60d60"
+            ]
+        ]
+    },
+    {
+        "id": "27f63d34d5a8a406",
+        "type": "ui_numeric",
+        "z": "f6602546c6de8b09",
+        "name": "",
+        "label": "Pressure error",
+        "tooltip": "",
+        "group": "9928a3bdfe86464e",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "step": "0.1",
+        "className": "",
+        "x": 520,
+        "y": 1380,
+        "wires": [
+            [
+                "68444c4e5d09b43c"
+            ]
+        ]
+    },
+    {
+        "id": "68444c4e5d09b43c",
+        "type": "function",
+        "z": "f6602546c6de8b09",
+        "name": "function 44",
+        "func": "flow.set('errPressure', parseFloat(msg.payload));\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 1380,
+        "wires": [
+            [
+                "f72cb60ea8201309"
+            ]
+        ]
+    }
+]
