@@ -1,0 +1,60 @@
+Grader: ---
+
+Automatic evaluation: 20
+Grader points: 75
+Late penalty for grader points: -0
+Total points: 95
+
+======================================================================
+OHJELMAN FUNKTIOJAKO
+50/50 pts
+======================================================================
+
++ Ohjelman funktiojako on onnistunut. Jokainen funktio toteuttaa
+  selkeän toimenpiteen, jonka olet myös osannut nimetä kuvaavasti.
+
++ Ohjelman toteutus sisältää sopivan määrän funktioita ja funktiot
+  ovat kooltaan sopivia. Niissä on myös käytetty parametreja ja
+  paluuarvoja tietojen välittämiseen asiaankuuluvalla tavalla.
+
+======================================================================
+OHJELMOINTITYYLI 
+25/30 pts
+======================================================================
+
+ KOMMENTIT:
+
++ Ohjelmakoodi on riittävässä määrin kommentoitua. 
+  
++ Funktiot on kommentoitu.
+
+* Docstringeillä """ on tapana kommentoida vain funktiot.  
+
+* Puutteellinen alkukommentti:
+  - Alkukommenttiin tulisi sisältyä myös lyhyt kuvaus ohjelman 
+    toiminnasta ja sähköpostiosoite.
+  
+
+ NIMEÄMINEN:
+
++ Muuttujat on nimetty pääsääntöisesti kuvaavasti.
+* Vältä yksikirjaimisia muuttujan nimiä, joita joutuu selittämään auki.
+
++ Funktiot on nimetty kuvaavasti.
+
+ OHJELMAKOODIN ASEMOINTI:
+
++ Ohjelmakoodi on asemoitu siististi ja jaettu tyhjien rivien 
+  avulla siisteiksi kokonaisuuksiksi. 
+  
++ Välilyöntejä on käytetty sopivasti koodin selkeyttämiseksi.
+  
+* Kannattaa pyrkiä pitämään ohjelmakoodi- ja kommenttirivien 
+  pituus alle 80 merkissä. Tämä helpottaa ohjelmakoodin lukemista.
+  
+======================================================================
+RATKAISUN YLEISPERIAATE
+======================================================================
+
++ Ohjelmasi oli yleisperiaatteeltaan selkeästi ja yleispätevästi
+  toteutettu.

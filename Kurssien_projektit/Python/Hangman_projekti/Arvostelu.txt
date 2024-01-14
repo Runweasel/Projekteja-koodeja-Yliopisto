@@ -1,0 +1,73 @@
+Grader: ---
+
+Automatic evaluation: 0
+Grader points: 200
+Late penalty for grader points: -0
+Total points: 200 / 200
+
+TYÖ ON PISTEYTETTY TASOLLA:
+
+Kehittynyt: 0-100 pistettä * 2
+
+* Käyttöliittymässä käsitellään komponenteja silmukoiden avulla. 
+
+======================================================================
+OSIO 1
+OHJELMOINTITYYLI
+60 pts
+======================================================================
+
+KOMMENTIT JA KÄYTTÖOHJE
+
++ Alkukommentissa on asiaankuuluva dokumentaatio ohjelmasta.
+
++ Ohjelmakoodi on kommentoitu. 
+
++ Funktiot/metodit on kommentoitu.
+
+
+NIMEÄMINEN
+
++ Muuttujat on nimetty kuvaavasti.
+
++ Muuttujien nimistä käy ilmi mikäli kyseessä on käyttöliittymäelementti.
+
++ Funktiot/metodit on nimetty kuvaavasti.
+
+
+OHJELMAKOODIN ASEMOINTI
+
++ Ohjelmakoodi on asemoitu siististi ja jaettu tyhjien rivien avulla
+  siisteiksi kokonaisuuksiksi. Myös välilyöntejä on käytetty sopivasti.
+
+
+======================================================================
+OSIO 2
+FUNKTIOJAKO JA RATKAISUN YLEISPERIAATE
+60 pts
+======================================================================
+
+OHJELMAN FUNKTIOJAKO
+
++ Toteutus on jaettu osakokonaisuuksin luokkia ja funktioita/metodeja 
+  käyttäen.
+  
++ Funktiojako/metodijako on järkevä.
+
+RATKAISUN YLEISPERIAATE
+
++ Ohjelma on yleisperiaatteeltaan siististi ja järkevästi toteutettu.
+
+
+======================================================================
+OSIO 3
+TOTEUTUKSEN HAASTAVUUS
+80 pts
+======================================================================
+
++ Ohjelman ulkoasullisiin seikkoihin on panostettu.
+
++ Ohjelma sisältää kurssin tasoon nähden riittävän monimutkaisen 
+  algoritmin.
+  
++ Ohjelman toteutuksessa on sisäinen muisti arvatuista kirjaimista.

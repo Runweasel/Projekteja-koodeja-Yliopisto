@@ -1,0 +1,49 @@
+COMP.CS.110 Ohjelmointi 2: rakenteet, K2023
+Projekti 2: Kirjasto, palaute
+
+Työsi on arvioitu ja olet saanut siitä alempaa löytyvän palautteen ja
+pistemäärän. Arvostelua koskevat mahdolliset tiedustelut voit
+lähettää työsi tarkastajalle viikon sisällä palautteen saamisesta.
+Muistathan sisällyttää viestisi otsikkoon myös opiskelijanumerosi & reposi nimen!
+
+Tarkastaja: ---
+Pisteet: 50
+
+Tarkastettu palautus: https://plus.tuni.fi/comp.cs.110/spring-2023/rounds_r07/r07_02_library/rounds_r07_02_library_library/submissions/3126112/
+Tarkastettu commit: 1c8b1cb6a8464055b2f6c41104ad262eecd04ddb
+
+
+==========================================================================
+
+RATKAISUN YLEISPERIAATE: 30/30 pistettä
+
++ Ohjelmassa käytetty tietorakenne on valittu järkevästi.
+
++ Ohjelma oli jaettu järkevästi sopivan kokoisiin funktioihin/metodeihin.
+
+* Tietorakennetta määriteltäessä using-komento olisi voinut olla
+  hyödyllinen. Sitä käyttämällä välttyy jatkuvasti kirjoittamasta samoja
+  pitkiä tietorakenteiden tyyppimäärittelyjä.
+
+==========================================================================
+
+OHJELMOINTITYYLI: 10/10 pistettä
+
++ Nimeämiskäytäntö kuvaavaa ja johdonmukaista.
+
+* Kuten olette kommenteissa maininneet niin KIRJASTOVERKKO-tietorakennetta
+  ei tarvitse kirjoittaa isoilla kirjaimilla. Nimetyt vakiot kuten 
+  const int VARAUSJONO_MAX = 100 tai const string ERROR_MESSAGE = "virhe!"
+  voidaan kirjoittaa isolla.
+
++ Ohjelmakoodi asemoitu siististi.
+
++ Ohjelmakoodin kommentointi on kunnossa.
+
+=========================================================================
+
+VERSIONHALLINNAN KÄYTTÖ: 10/10 pistettä
+
++ Olet käyttänyt versionhallintaa järkevällä tavalla.
+  Vaiheittaisesta toteuttamisesta ja kuvaavista commit-viesteistä on
+  varmasti hyötyä jatkossa.

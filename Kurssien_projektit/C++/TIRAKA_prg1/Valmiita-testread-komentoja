@@ -1,0 +1,84 @@
+
+// INTEGRATION OPTIONAL //
+
+testread "integration-optional/test-01-get_affiliations_closest_to-in.txt" "integration-optional/test-01-get_affiliations_closest_to-out.txt"
+
+testread "integration-optional/test-02-remove_affiliation-in.txt" "integration-optional/test-02-remove_affiliation-out.txt"
+
+testread "integration-optional/test-03-remove_publication-in.txt" "integration-optional/test-03-remove_publication-out.txt"
+
+testread "integration-optional/test-04-get_closest_common_parent-in.txt" "integration-optional/test-04-get_closest_common_parent-out.txt"
+
+testread "integration-optional/test-05-get_all_references-in.txt" "integration-optional/test-05-get_all_references-out.txt"
+
+// INTEGRATION COMPULSORY
+
+testread "integration-compulsory/test-00-compulsory-in.txt" "integration-compulsory/test-00-compulsory-out.txt"
+
+// FUNCTIONALITY OPTIONAL
+
+testread "functionality-optional/test-01-get_affiliations_closest_to-in.txt" "functionality-optional/test-01-get_affiliations_closest_to-out.txt"
+
+testread "functionality-optional/test-02-remove_affiliation-in.txt" "functionality-optional/test-02-remove_affiliation-out.txt"
+
+testread "functionality-optional/test-03-remove_publication-in.txt" "functionality-optional/test-03-remove_publication-out.txt"
+
+testread "functionality-optional/test-04-get_closest_common_parent-in.txt" "functionality-optional/test-04-get_closest_common_parent-out.txt"
+
+testread "functionality-optional/test-05-get_all_references-in.txt" "functionality-optional/test-05-get_all_references-out.txt"
+
+
+// FUNCTIONALITY COMPULSORY
+
+testread "functionality-compulsory/test-01-affiliations-basic-in.txt" "functionality-compulsory/test-01-affiliations-basic-out.txt"
+
+testread "functionality-compulsory/test-02-affiliations-sorting-in.txt" "functionality-compulsory/test-02-affiliations-sorting-out.txt"
+
+testread "functionality-compulsory/test-03-affiliations-find-in.txt" "functionality-compulsory/test-03-affiliations-find-out.txt"
+
+testread "functionality-compulsory/test-04-affiliations-change-in.txt" "functionality-compulsory/test-04-affiliations-change-out.txt"
+
+testread "functionality-compulsory/test-05-get_affiliations-in.txt" "functionality-compulsory/test-05-get_affiliations-out.txt"
+
+testread "functionality-compulsory/test-06-publications-basic-in.txt" "functionality-compulsory/test-06-publications-basic-out.txt"
+
+testread "functionality-compulsory/test-07-get_publications-in.txt" "functionality-compulsory/test-07-get_publications-out.txt"
+
+testread "functionality-compulsory/test-08-get_publications_after-in.txt" "functionality-compulsory/test-08-get_publications_after-out.txt"
+
+testread "functionality-compulsory/test-09-get_parent-in.txt" "functionality-compulsory/test-09-get_parent-out.txt"
+
+testread "functionality-compulsory/test-10-get_referenced_by_chain-in.txt" "functionality-compulsory/test-10-get_referenced_by_chain-out.txt"
+
+testread "functionality-compulsory/test-11-get_direct_references-in.txt" "functionality-compulsory/test-11-get_direct_references-out.txt"
+
+// MUITA EXAMPLE DATOJA
+
+add_affiliation ISY "Ita-Suomen yliopisto" (945,767)
+add_affiliation TUNI "Tampereen korkeakouluyhteiso" (542,455)
+add_affiliation HY "Helsingin yliopisto" (820,80)
+add_affiliation TY "Turun yliopisto" (366,219)
+add_affiliation LY "Lapin yliopisto" (740,1569)
+
+add_publication 6440429 "Publication1" 1992
+add_publication 2528474 "Publication2" 1994
+add_publication 1724359 "Publication3" 1996  
+add_publication 54224 "Publication4" 1998
+add_affiliation_to_publication TUNI 6440429
+add_affiliation_to_publication HY 6440429
+add_affiliation_to_publication ISY 6440429
+add_affiliation_to_publication TY 2528474
+add_affiliation_to_publication LY 2528474
+add_affiliation_to_publication TUNI 2528474
+add_affiliation_to_publication HY 1724359
+add_affiliation_to_publication TY 1724359
+add_reference 2528474 1724359
+add_reference 1724359 54224
+add_reference 6440429 54224
+
+
+perftest get_affiliations_alphabetically 20 20 100000
+perftest get_affiliations_distance_increasing 20 20 100000
+perftest find_affiliation_with_coord 20 20 100000
+
+

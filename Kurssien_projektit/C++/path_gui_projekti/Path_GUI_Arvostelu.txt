@@ -1,0 +1,82 @@
+COMP.CS.110 Ohjelmointi 2: rakenteet, K2023
+Projekti 4: Path gui, palaute
+
+Työsi on arvioitu ja olet saanut siitä alempaa löytyvän palautteen ja
+pistemäärän. Arvostelua koskevat mahdolliset tiedustelut voit
+lähettää työsi tarkastajalle viikon sisällä palautteen saamisesta.
+Muistathan sisällyttää viestisi otsikkoon myös opiskelijanumerosi & reposi nimen!
+
+Tarkastaja: ---
+Pisteet: 50
+
+Tarkastettu palautus: https://plus.tuni.fi/comp.cs.110/spring-2023/rounds_r12/r12_04_path_gui/rounds_r12_04_path_gui_path_gui/submissions/3300764/
+Tarkastettu commit: 2fd86000b9906f89bb2971f3d969abc89dc1b4b4
+
+==========================================================================
+
+OHJELMAN TOIMINNALLISUUS JA KÄYTTÖOHJE: 10/10 pistettä
+
++ Käyttöohje kirjoitettu hyvin.
+
++ Ohjelman toiminnallisuus testattu hyvin.
+
+==========================================================================
+
+RATKAISUN YLEISPERIAATE: 30/30 pistettä
+
++ Ohjelmasi on kaikin puolin siististi toteutettu.
+
++ Ohjelma oli jaettu järkevästi sopivan kokoisiin funktioihin/metodeihin.
+
++ Ohjelmassa käytetty tietorakenne on valittu järkevästi.
+
+== Luokat ==
+
++ Toteutetun luokan rajapinta oli järkevä.
+
+== Endof luokat ==
+
+
+
+==========================================================================
+
+OHJELMOINTITYYLI: 0/-20 pistettä
+
++ Nimeämiskäytäntö kuvaavaa ja johdonmukaista.
+
++ Ohjelmakoodi asemoitu siististi.
+
++ Ohjelmakoodin kommentointi on kunnossa.
+
+
+=========================================================================
+
+VERSIONHALLINNAN KÄYTTÖ: 10/10 pistettä
+
++ Olet käyttänyt versionhallintaa järkevällä tavalla.
+  Vaiheittaisesta toteuttamisesta ja kuvaavista commit-viesteistä on
+  varmasti hyötyä jatkossa.
+
+
+
+=========================================================================
+
+BONUSPISTEET
+
+=========================================================================
+
+Tulostaulu: 8/10 pistettä
++ Ominaisuuden toteutus on järkevä.
+ - Tulostaulu ei päivity heti ohjelman käynnistyessä
+
+Taustavärin vaihto: 10/10 pistettä
++ Ominaisuus toimii hyvin ja on toteutettu nätisti.
+
+Oma tavoite siirroille: 5/5 pistettä
++ Ominaisuus toimii hyvin ja on toteutettu nätisti.
+
+Pause: 10/10 pistettä
++ Ominaisuus toimii hyvin ja on toteutettu nätisti.
+
+Undo: 10/10 pistettä
++ Ominaisuus toimii hyvin ja on toteutettu nätisti.

@@ -1,0 +1,70 @@
+Grader: ---
+
+Automatic evaluation: 40
+Grader points: 110
+Late penalty for grader points: -0
+Total points: 150
+
+=====================================================================
+OSIO 1
+LUOKKARAJAPINNAN TOTEUTUS
+90/100 pts
+=====================================================================
+
+ LUOKAN TOTEUTUS
+
++ Olit toteuttanut järkevän luokan, joka mallintaa yksittäistä
+  muuttolaatikkoa.
+  
++ Luokan sisäinen tietorakenne on järkevä.
+
++ Luokan rakentaja (__init__) on järkevästi toteutettu.
+
++ Kaikki luokan metodit ovat järkevästi toteutettuja.
+
+- Luokan metodeissa on turhaa toisteisuutta, joka olisi voitu 
+  välttää. Tämä näkyy koodissa kohdassa transfer metodissa voisi hyödyntää remove ja add metodeja
+
+=====================================================================
+OSIO 2
+OHJELMOINTITYYLI
+20/60 pts
+=====================================================================
+
+ KOMMENTIT
+
++ Alkukommentissa on asiaankuuluvat tiedot.
+
+- Ohjelmakoodia ei ole lainkaan kommentoitu. Vaikka
+  muuttujien nimet olisivat kuvaavia, on syytä kommentoida ainakin
+  sellaiset kohdat koodista, joiden merkitys ei välttämättä avaudu
+  helposti.
+
+- Funktioita ei ole lainkaan kommentoitu. Funktiot tulee
+  aina kommentoida siten, että kommentista käy ilmi funktion
+  käyttötarkoitus, parametrit ja paluuarvot.
+
+* Funktiot on tapana kommentoida docstring-kommenteilla, joiden
+  muoto on esimerkiksi seuraavanlainen:
+
+  """
+  Kuvaus funktion toiminnasta ja merkityksestä.
+  :param  parametri1: kuvaus parametri1:stä
+  :param  parametri2: kuvaus parametri2:sta
+  :return: , kuvaus funktion paluuarvosta.
+  """"
+
+
+ NIMEÄMINEN
+
++ Muuttujat on nimetty kuvaavasti.
+
++ Funktiot on nimetty kuvaavasti.
+
+
+
+ OHJELMAKOODIN ASEMOINTI
+
++ Ohjelmakoodi on asemoitu siististi ja jaettu tyhjien rivien avulla
+  siisteiksi kokonaisuuksiksi. Myös välilyöntejä on käytetty
+  sopivasti selkeyttämään koodia.

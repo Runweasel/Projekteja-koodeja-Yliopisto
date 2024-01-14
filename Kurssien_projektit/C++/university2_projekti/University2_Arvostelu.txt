@@ -1,0 +1,61 @@
+COMP.CS.110 Ohjelmointi 2: rakenteet, K2023
+Projekti 3: University, palaute
+
+Työsi on arvioitu ja olet saanut siitä alempaa löytyvän palautteen ja
+pistemäärän. Arvostelua koskevat mahdolliset tiedustelut voit
+lähettää työsi tarkastajalle viikon sisällä palautteen saamisesta.
+Muistathan sisällyttää viestisi otsikkoon myös opiskelijanumerosi & reposi nimen!
+
+Tarkastaja: ---
+Pisteet: 45
+
+==========================================================================
+==========================================================================
+
+RATKAISUN YLEISPERIAATE: 40/40 pistettä
+
++ Ohjelmassa käytetty tietorakenne on valittu järkevästi.
+
+
++ Ohjelmasi on kaikin puolin siististi toteutettu.
+
++ Ohjelma oli jaettu järkevästi sopivan kokoisiin funktioihin/metodeihin.
+
+
+== Luokat ==
+
++ Toteutetun luokan rajapinta oli järkevä.
+
+
+== Endof luokat ==
+
+
+==========================================================================
+
+OHJELMOINTITYYLI: -5/-20 pistettä
+
++ Nimeämiskäytäntö kuvaavaa ja johdonmukaista.
+
++ Ohjelmakoodi asemoitu siististi.
+
+* Ohjelmakoodin kommentoimisessa on puutteita:
+ 
+  - Jokaisen funktion alkuun tulisi lisätä kommentti selittämään
+    kyseisen funktion käyttötarkoitusta, parametreja ja paluuarvoa.
+    * Tämä nk. "rajapintadokumentaatio" on tapana kirjoittaa pelkästään
+      kunkin moduulin otsikkotiedostoon, juuri ennen kunkin funktion
+      esittelyä. Samaa kommenttia ei tarvitse kopioida toteutustiedostoon.
+      Myöskään main-funktiolle ei tällaista funktion tarkoituksen
+      kuvaavaa kommenttia yleensä kirjoiteta.
+    * Tyypillisesti C++:ssa funktion kommentti kirjoitetaan sen yläpuolelle.
+  - Kaikki sellaiset kohdat ohjelmakoodista on tapana kommentoida,
+    jotka eivät välttämättä avaudu helposti. "Itsestäänselvyyksiä"
+    kuten esimerkiksi C++:n ominaisuuksia ei ole tarpeen kommentoida.
+
+=========================================================================
+
+VERSIONHALLINNAN KÄYTTÖ: 10/10 pistettä
+
++ Olet käyttänyt versionhallintaa järkevällä tavalla.
+  Vaiheittaisesta toteuttamisesta ja kuvaavista commit-viesteistä on
+  varmasti hyötyä jatkossa.

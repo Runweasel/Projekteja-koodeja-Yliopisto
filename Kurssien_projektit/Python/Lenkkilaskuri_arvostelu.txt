@@ -1,0 +1,61 @@
+Grader: ---
+
+Automatic evaluation: 100
+Grader points: 0
+Late penalty for grader points: -0
+Total points: 100 / 100
+
+================================================================
+
+Palautteessa on plussalla (+) merkittynä niitä asioita, jotka
+ovat olleet harjoitustyössäsi kunnossa. Tähdellä (*) merkityt
+asiat ovat puolestaan neutraaleita huomioita harjoitustyöstä.
+Työsi pisteisiin (jos tehtävä olisi pisteytetty) vähentävästi
+vaikuttaneet asiat ovat palautteessa merkitty miinuksella (-).
+
+
+MUUTTUJAT:
+
++ Muuttujille on valittu nimet, jotka kuvaavat niiden sisältöä hyvin.
+
+* Vakioiden käyttö parantaa ohjelmakoodin muokattavuutta ja
+  luettavuutta, joten tehtävässä vaaditusta lenkkimatkan
+  keskiarvosta olisi voitu tehdä vakio:
+  MINIMI_MATKA = 3.0
+  MAKSIMI_NOLLAT = 2
+
+
+KOMMENTOINTI:
+
+- Ohjelmakoodia ei ole juurikaan kommentoitu. Koodista olisi hyvä 
+  kommentoida sellaiset kohdat, jotka eivät välttämättä ole helposti 
+  lukijan ymmärrettävissä.
+
+- Ohjelmakooditiedoston alussa tulee olla alkukommentti, joka kertoo
+  tekijän (nimi, opnro) lisäksi ytimekkäästi mitä ohjelma tekee.
+
+
+MUITA HUOMIOITA:
+ 
+  
++ Välilyöntejä on käytetty sopivasti ohjelmakoodin luettavuuden 
+  parantamiseksi.
+
+- Tyhjät rivit ovat hienovarainen työkalu ohjelmakoodin luettavuuden
+  parantamiseen. Esimerkiksi loogiset kokonaisuudet (mm. funktiot,
+  if-rakenne ja toistorakenteet) voisi ympäröidä tyhjällä rivillä.
+
+
+* Pyri pitämään ohjelmakoodi- ja kommenttirivien pituus alle
+  80 merkissä. Tämä parantaa ohjelmakoodin luettavuutta.
+
+* Tyyppimuunnosta ei ole tarpeen kirjoittaa (varmuuden vuoksi)
+  lausekkeisiin, jotka ovat jo oikean tyyppisiä. Tyyppimuunnos
+  on tarpeen vain tilanteissa, joissa jonkin muuttujan sisältämää
+  tietoa halutaan tulkita toisentyypisenä. Esimerkiksi input-funktio
+  palauttaa merkkijonon, mutta merkkijonon sisältöä halutaan tulkita
+  kokonaislukuna: 
+  
+  ikä = int(input("Kuinka vanha olet: ")
+  
+================================================================

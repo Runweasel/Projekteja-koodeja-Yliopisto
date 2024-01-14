@@ -1,0 +1,108 @@
+Grader: ---
+
+Grader points: 500 / 500
+Late penalty for grader points: -0
+
+**Minimivaatimukset:
+
++ Ohjelma kääntyy
++ Paikkakuntahaku toteutettu
++ Nykyinen säätila näytetään (väh. kolme eri datatyyppiä)
++ Yksinkertainen ennuste
++ Ohjelma käyttää säähän sopivia ikoneita
++ Projektille löytyy versiohistoria gitlabista
+______________________________________________________________________________
+
+**Toiminnallisuus:
+
+Yleistä
++ Paikkakuntien tallentaminen suosikeiksi
++ Ohjelman tila (nykyinen paikkakunta sekä suosikit) tallennetaan ohjelman sulkeutuessa ja palautetaan uudelleen käynnistettäessä
++ Omat sääikonit
+
+API:n käyttö
++ Yksityiskohtaisempi ennuste toteutettu
+_____________________________________________________________________________
+
+**Ulkonäkö ja käytettävyys:
+
+Käytettävyys
++ Ohjelman kulusta ja vaiheista saa helposti selvää
++ Kontrollit ovat sujuvat
+
+Ulkonäkö
++ Siistin näköinen käyttöliittymä
++ Käyttöliittymä on hyvin viimeistelty
+_____________________________________________________________________________
+
+**Yksikkötestaus:
+
+Yksikkötestauksen kattavuus (testattavista luokista)
++ Hyvä testien kattavuus
+
+Yksikkötestien toteutus
++ Testit hyvin toteutettu
+_____________________________________________________________________________
+
+**Kokonaistoteutus:
+
+Java
++ Collections-säiliöiden hyvä käyttö
++ Funktionaalisten ominaisuuksien hyvä käyttö
+
+Poikkeusten käyttö
++ Poikkeustilanteiden käsittely on hoidettu hyvin.
++ Kielen poikkeusluokkia on käytetty hyvin
+- Monissa metodeissa otetaan kiinni kaikki mahdolliset poikkeukset, eikä niitä sitten välttämättä käsitellä mitenkään. Parempi olisi miettiä, mitä poikkeuksia koodista oikeasti voi lentää, miten niihin pitäisi reagoida, ja olisiko jotkut parempi vain päästää läpi kutsujalle.
+_____________________________________________________________________________
+
+**Suunnittelu ja rakenne:
+
+Luokkien vastuualueet ja luokkien suunnittelu 
++ Luokkajako ja luokkien vastuut ovat järkevät.
++ Ohjelmaan on toteutettu erilliset tyypit toiminnallisille osille ja käyttöliittymään piirrettäville kuville.
+
+Periytymisen käyttö 
++ Periytymistä on käytetty vaaditussa määrin, eikä siinä ole erityisiä ongelmia.
+
+Omien luokkien rajapintamäärittelyt 
++ Omille luokille on kirjoitettu hyvät rajapintamäärittelyt.
+______________________________________________________________________________
+**Koodin ulkonäkö & tyyli:
+
+Vakioiden käyttö
+- Esimerkiksi API:n osoitteita olisi voinut olla hyvä tallentaa vakiomuuttujiin.
+
+Kommentoinnin taso 
++ Koodi on kommentoitu hyvin. Hyvin kommentoidussa koodissa on kommentoitu refaktoroinnin ja toteutuksen ymmärtämisen kannalta olennaisia kohtia ja se ei sisällä turhaa kommentointia.
+______________________________________________________________________________
+
+**Dokumentaatio:
+
+Dokumentaatio
++ Hyvä ja selkeä rakenne & ulkoasu.
+
+Toteutuksen kuvaus
++ Ohjelman luokat ja niiden merkitys kuvataan hyvin.
++ Dokumentaatio sisältää ohjeet ohjelman käyttämiseen
++ Omasta toteutuksesta on laadittu Javadoc-dokumentaatio.
+
+Kieliasu
++ Kaunista, hyvää, selkeää kieltä.
+
+______________________________________________________________________________
+**Versiohallinan käyttö ja tiimityöskentely:
+
+Ryhmätyöskentely
++ Työ on jaettu selkeästi ja tasapuolisesti
+
+Versiohistoria
++ Haaroja ja jotakin flow'ta on käytetty ansiokkaasti
++ Commitit on tehty sopivan pienissä paloissa.
++ Lokiviestit ovat pääosin kuvaavia.
+______________________________________________________________________________
+
+LISÄOSAT
+
++ Hakuhistoria
++ Välilehdet
